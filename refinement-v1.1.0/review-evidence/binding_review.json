@@ -1,0 +1,15 @@
+{
+  "symbolic_geometry_polynomials_checked": 437,
+  "selected_polynomials_bound_to_geometry": true,
+  "public_v1_geometry_matches_archived_v1_geometry": true,
+  "v1_hash_difference_reason": "Different schema/metadata; ordered rational x,y,t and side are exactly equal",
+  "fresh_couzo_coordinates_byte_match": true,
+  "new_certificate_sha256": "6d4f72debae83b5825e91f7b090e0cee08851ad7b85400343c0dee52f468dff9",
+  "new_side_matches_summary": true,
+  "new_side_exceeds_enclosed_root": true,
+  "new_side_minus_root_upper_endpoint_rational": "114509686704543793063929467250032711613958032197170041347711/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "fixed_angle_lower_bound_below_candidate": true,
+  "old_to_new_improvement_rational": "271609742331903297860591647898096977212073675963/100000000000000000000000000000000000000000000000000000000000",
+  "archive_integrity_files_checked": 1248,
+  "review_date_utc": "2026-10-07"
+}
