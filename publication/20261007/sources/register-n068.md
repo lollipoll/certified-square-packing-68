@@ -1,0 +1,315 @@
+---
+title: s(68) — square packing case
+softschema:
+  contract: packing.squares:SquarePackingCase/v2
+  schema: square-packing-case.schema.yaml
+  envelope: packing
+  status: enforced
+packing:
+  n: 68
+  reported_status: open
+  status: open
+  source_reviewed: '2026-10-05'
+  reported_upper_bound:
+    value: '8.798795237218283902664668919394'
+    exact_form: null
+    algebraic_degree: null
+    minimal_polynomial: null
+    analytically_optimized: null
+    catalogue_rigid: not-stated
+    construction_method: unknown
+    tilt_angles_deg: null
+    found_by:
+    - Francisco Couzo
+    found_year: 2026
+    improved_by:
+    - Evan Daniel
+    catalogue_pictured: true
+    source_key: '[evand exact optima 2026-10-05]'
+    source_date: '2026-10-05'
+    retrieved_date: '2026-10-05'
+    witnesses:
+    - W-known-best-n068
+    evidence:
+    - E-evand-exact-optima-2026-10-05-report
+  verified_upper_bound:
+    value: '8.798795237218283902664668919394'
+    exact_form: 4399397618609141951332334459697/500000000000000000000000000000
+    evidence:
+    - E-evand-exact-optima-2026-10-05-exact-replay
+    - E-evand-exact-optima-2026-10-05-source-replay
+  reported_lower_bound:
+    value: '8.51'
+    exact_form: 851/100
+    kind: counting
+    proved_by:
+    - wand125
+    proved_year: 2026
+    source_key: '[wand125 rectangle bounds 2026-10-01]'
+    note: Rectangle-density certificate in Tokoharu's format, reported in the retained source and accepted
+      there by Tokoharu's unchanged interval checker. The verified lane records the local replay separately.
+    scope: Unrestricted square packing with independent rotations and disjoint interiors.
+    evidence:
+    - E-wand125-rectangle-2026-10-01-report
+  verified_lower_bound:
+    value: '8.51'
+    exact_form: 851/100
+    evidence:
+    - E-wand125-rectangle-2026-10-01-source-replay
+  rigidity:
+    property: not-rigid
+    assurance: numerically-checked
+    method: numerical-multiprecision
+    scope: 'Square 0 of the retained witness (witness id 1) translates 0.367698 along (1, 0) with the
+      packing still valid, so the configuration admits a non-trivial feasible motion; 22 of its 68 squares
+      do. Every constraint is exactly affine in the slide parameter, so the arithmetic carries no linearization
+      error, but the coordinates are the witness''s own finite-precision transcription: this settles the
+      retained configuration, not the true optimum. Rigidity and optimality are independent, and this
+      bears only on the former.'
+    certificate: atlas/known-best/translation-escape-screen.json
+    replay: uv run --frozen --all-extras --group dev python -m devtools.screen_translation_escape --check
+    evidence:
+    - E-translation-escape-not-rigid
+  conjectured_optimum: null
+  priority_notes: []
+  evidence:
+  - E-evand-exact-optima-2026-10-05-report
+  - E-evand-exact-optima-2026-10-05-exact-replay
+  - E-evand-exact-optima-2026-10-05-source-replay
+  - E-n068-wand125-rect-851-sqverify-fast-replay
+  - E-wand125-rectangle-2026-10-01-source-replay
+  - E-wand125-rectangle-2026-09-28-source-replay
+  - E-wand125-rectangle-2026-10-01-report
+  - E-franciscouzo-2026-09-27-report
+  - E-franciscouzo-2026-09-27-exact-replay
+  - E-franciscouzo-2026-09-27-interval-replay
+  - E-wand125-rectangle-2026-09-28-report
+  - E-wand125-rectangle-report
+  - E-wand125-n068-derived-lower
+  - E-unitsquare-release1-report
+  - E-nagamochi-lower
+  - E-basic-grid-upper
+  - E-green-ds7-theorem9-reported-lower
+  conflicts: []
+  blockers:
+  - kind: source-evidence
+    detail: Green's reported lower-bound proof, cited as private communication by Friedman, has not been
+      recovered or independently replayed.
+    evidence:
+    - E-green-ds7-theorem9-reported-lower
+  resources:
+  - key: '[evand exact optima 2026-10-05]'
+    role: upper-bound-report
+    local: web/evand-square-packing-2026-10-05
+    url: https://github.com/evand/square-packing
+    retrieved: true
+  - key: '[wand125 rectangle bounds 2026-10-01]'
+    role: lower-bound-proof
+    local: web/wand125-rectangle-certificates-2026-10-01/wand125-rectangles
+    url: https://github.com/wand125/square-packing-bounds
+    retrieved: true
+  - key: '[franciscouzo square-packing 2026-09-27]'
+    role: upper-bound-report
+    local: web/franciscouzo-square-packing-2026-09-27
+    url: https://github.com/franciscouzo/square-packing
+    retrieved: true
+  - key: '[wand125 rectangle bounds 2026-09-28]'
+    role: lower-bound-proof
+    local: web/wand125-rectangle-certificates-2026-09-28/wand125-rectangles
+    url: https://github.com/wand125/square-packing-bounds
+    retrieved: true
+  - key: '[wand125 rectangle bounds 2026]'
+    role: lower-bound-proof
+    local: web/wand125-rectangle-certificates-2026-09-27/wand125-rectangles
+    url: https://github.com/wand125/square-packing-bounds
+    retrieved: true
+  - key: '[wand125 point bounds 2026]'
+    role: lower-bound-proof
+    local: web/external-square-certificates-2026-09-22/wand125-points
+    url: https://github.com/wand125/square-packing-bounds
+    retrieved: true
+  - key: '[Kingbird]'
+    role: record-catalogue
+    local: web/kingbird-squares-in-squares
+    url: https://kingbird.myphotos.cc/packing/squares_in_squares.html
+    retrieved: true
+  - key: '[UnitSquare 2026]'
+    role: upper-bound-report
+    local: web/unitsquare-release1-2026/results.json
+    url: https://hmbelvedere.com/data/results.json
+    retrieved: true
+  - key: '[Nagamochi 2005]'
+    role: lower-bound-proof
+    local: papers/nagamochi-2005-packing-unit-squares-in-a-rectangle
+    url: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v12i1r37
+    retrieved: true
+  - key: '[Friedman DS7]'
+    role: survey
+    local: papers/friedman-ds7-packing-unit-squares-in-squares
+    url: https://erich-friedman.github.io/papers/squares/squares.html
+    retrieved: true
+---
+# `s(68)` — open
+
+**External intake, 2026-10-01.** wand125’s
+[rectangle-density source](../resources/web/wand125-rectangle-certificates-2026-10-01/README.md)
+reports `s(68) >= 851/100 = 8.51`, with total mass $6799/100 = 67.99 < 68$, accepted by
+Tokoharu’s unchanged interval checker.
+The complete 201-direction coverage replay here accepted it again, after this
+repository’s exact audit checked that the regenerated checker input is the published one
+and checked the mass and net premises, so it is also verified.
+wand125’s README says parts of the work were produced with AI assistance under human
+direction.
+
+**External intake, 2026-09-28.** wand125’s
+[rectangle-density source](../resources/web/wand125-rectangle-certificates-2026-09-28/README.md)
+reports a direct $1699/200 = 8.495$ certificate for this case, whose reported bound the
+2026-10-01 intake above raises, with total mass $6799/100 = 67.99 < 68$, accepted by
+Tokoharu’s unchanged interval checker.
+This repository’s exact audit checks that the regenerated checker input is the published
+one, and checks the mass and net premises; the complete coverage replay has not yet run
+here, so the verified lower bound is unchanged.
+wand125’s README says parts of the work were produced with AI assistance under human
+direction.
+
+**External intake, 2026-09-27.** wand125’s
+[rectangle-density source](../resources/web/wand125-rectangle-certificates-2026-09-27/README.md)
+reports a direct $423/50 = 8.46$ certificate for this case, whose reported bound the
+2026-09-28 intake above raises, with total mass $6799/100 = 67.99 < 68$, accepted by
+Tokoharu’s unchanged interval checker.
+This repository’s exact audit checks that the regenerated checker input is the published
+one, and checks the mass and net premises; the complete coverage replay has not yet run
+here, so the verified lower bound is unchanged.
+
+Open. The best known published packing, Francisco Couzo’s at Evan Daniel’s exact optimum
+(T-098), gives $s(68) \le 8.7987952372182839027\ldots$, and the strongest verified lower
+bound is $851/100 = 8.51$, from wand125’s rectangle-density certificate of 1 October
+(`T-074`), leaving a gap of about $0.2888$. Before it the verified bound was
+$1691/200 = 8.455$, from wand125’s n67 rectangle-density certificate by monotonicity
+(`T-070`), and until 2026-10-02 $841/100$, from the complete exact replay of wand125’s
+n69 point certificate and its stricter mass budget, which already excludes 68 squares.
+The exact optimum remains open.
+
+## The exact optimum
+
+Evan Daniel’s
+[`square-packing`](../resources/web/evand-square-packing-2026-10-05/README.md) published
+on 5 October 2026 an exact rational certificate of this packing at its exact optimum
+(T-098): the same 68 squares in a square of side $8.7987952372182839027\ldots$,
+`4.3e-12` below the side Francisco Couzo prints.
+Square for square, its pose lies within `4.3e-4` of the binary64 pose the atlas pictures
+for this count. 4 squares move by more than `1e-8`, all of them squares the source lists
+as carrying no force; every other square moves by at most `5.8e-12`. The known-best
+witness this record lists is that binary64 pose, posed at its finder’s larger side; the
+side above is witnessed by the certificate itself.
+Evan Daniel’s solver moves the binary64 pose to a nearby exact KKT point of the problem
+of minimizing the side under non-overlap, computed at 80 digits, and rounds it outward
+to rationals, each square a rational centre and a rational $t = \tan(\theta/2)$.
+
+This repository decides the certificate exactly.
+Converted without rounding, every pair and every wall is decided over $\mathbb{Q}$
+twice, by `sqpack`’s exact separating-axis test and by an independent checker that
+shares no code with it, and the source’s own two checkers, run here as retained, accept
+it as well
+([receipts](../resources/web/evand-square-packing-2026-10-05/README.md#replayed-here)).
+That proves $s(68) \le 8.7987952372182839027\ldots$, the verified upper bound; it says
+nothing about optimality.
+The source reports the exact point as a KKT local minimum: multipliers that keep it in
+equilibrium, a reduced Hessian positive definite once its exact flat motions are set
+aside (its per-count report), and no first-order descent across corner-to-corner
+contacts, each computed numerically at that point; none of that is verified here, and it
+bears on this packing alone, not on $s(68)$. On jlevy/squares#375 its author wrote that
+the solver, its checkers and the batch “were written with Claude (Anthropic) as a coding
+and research agent, directed and reviewed by me.”
+
+## The packing
+
+Francisco Couzo’s
+[`square-packing`](../resources/web/franciscouzo-square-packing-2026-09-27/README.md)
+reports a packing of side $8.798795237222592$ for this count, dated 26 September 2026
+and unchanged when this record retained the repository on 27 September 2026 (T-056). The
+repository names no method and no tolerance, and itself states no AI assistance; its
+author said on [issue #227](https://github.com/jlevy/squares/issues/227) that he found
+the 102 and 103 packings “with the help of Claude”.
+
+This repository certifies it exactly.
+The retained decimal pose rounds to an exact rational packing at centre dilation 1, of
+side $8.7987952372225919633\ldots$, no larger than the printed side, and every pair and
+every wall is decided over $\mathbb{Q}$ twice, by the promotion’s exact separating-axis
+test and by an independent checker that shares no code with it
+([receipt](../resources/web/franciscouzo-square-packing-2026-09-27/README.md#certified-here)).
+That proves $s(68) \le 8.798795237222592$, which was the verified upper bound until Evan
+Daniel’s exact optimum above replaced it; it says nothing about optimality.
+Interval arithmetic on the printed pose itself, with each angle’s true cosine and sine
+and no rational rounding, decides every pair and wall again and gives the same bound
+([interval route](../resources/web/franciscouzo-square-packing-2026-09-27/README.md#interval-route)).
+
+### The previous best known packing
+
+Before this intake the best known packing was the UnitSquare Project’s, of side
+$8.803383074716108386903836683375989697670063329$, below the Kingbird catalogue’s
+$8.80345993651653$.
+
+The UnitSquare Project’s 29 July 2026 release improves the public
+Brendberg-Schadt-Ellsworth parent by $0.0000768618004216131$. The release classifies the
+result as a construction-only upper bound and says it used outward-rounded interval
+arithmetic, a 300-digit zero-tolerance recomputation, and an independent published
+checker. The public release does not include the interval boxes, governed receipt, or
+replayable checker needed to inspect the formal claim.
+This repository recorded the value as reported.
+The formal lane held the exact $9 \times 9$ grid construction until this intake.
+
+## The lower bound
+
+The verified floor is a local deduction from wand125’s retained
+[`cert_n69_L841.json`](../resources/web/external-square-certificates-2026-09-22/wand125-points/certificates/cert_n69_L841.json).
+The native exact verifier completed all 201 directions and all five certificate
+conditions successfully; its exact total mass is $846701027/12500000 < 68$. The count
+enters only through the strict mass inequality, so replacing the source file’s target 69
+by 68 changes no geometric premise.
+The remaining mass margin is $3298973/12500000$. The
+[replay log](../resources/web/external-square-certificates-2026-09-22/receipts/wand125-points/sqpack-exact-replay.log)
+and
+[mathematical review](../../docs/project/reviews/review-2026-09-22-tokoharu-density-mathematics.md#supplemental-review-predecessor-point-adapter)
+retain the evidence and derivation.
+This is a local consequence of the external certificate, with no claim of priority; the
+upstream README announces n69 rather than n68.
+
+The selected literal external report, [Friedman DS7], gives the lower-bound expression
+`2*sqrt(2) + 71/13` for $s(68)$ (approximately $8.289965586285$). Friedman’s DS7 survey,
+Theorem 9, k=8, reports this bound at n=65; reference [8] is Green’s private
+communication (2000). The source proof has not been recovered.
+The unavoidable-set argument DS7’s Figure 34 illustrates does not prove it: at $k = 8$
+that point pattern leaves a unit square empty
+([review](../../docs/project/reviews/review-2026-10-02-green-ds7-theorem9.md)).
+Inherited at n=68 by monotonicity.
+That value remains in the reported field, separate from the stronger locally derived
+verified floor. The [source audit](../devtools/audit_ds7_lower_bounds.py) compares the
+exact theorem expressions separately from opaque table decimals.
+Nagamochi’s general bound `1 + sqrt(53)` remains valid historical evidence and is
+superseded as this case’s strongest verified floor.
+**Corrected 2 October 2026:** its published proof rests on Nagamochi’s Lemma 1, which
+Karakuş showed false, so it is now a reported bound
+([review](../../docs/project/reviews/review-2026-10-02-nagamochi-lemma1-karakus.md)).
+This register had recorded that proof as verified, its own error, logged as defect
+[D-516](../../defects.md).
+
+<!-- BEGIN verification code: written by devtools.render_case_verifiers -->
+
+## Verification Code
+
+The programs behind this case’s verified bounds, by their evidence.
+The code column says how the code that ran stands to the code its producer used.
+[`VERIFIERS.md`](VERIFIERS.md) says what each program is and whose it is.
+
+| bound | evidence | run | code | programs |
+| --- | --- | --- | --- | --- |
+| verified lower | `E-wand125-rectangle-2026-10-01-source-replay` | replayed here | producer’s code | `V-tokoharu-verify-cpp` (external); `V-audit-wand125-rectangles` (first-party, premises) |
+| verified upper | `E-evand-exact-optima-2026-10-05-exact-replay` | replayed here | independent | `V-sqpack-verify`, `V-check-rational-witness-independent` (first-party); `V-evand-exact-certificates` (first-party, premises) |
+| verified upper | `E-evand-exact-optima-2026-10-05-source-replay` | replayed here | producer’s code | `V-evand-verify-cert-py`, `V-evand-verify-cert2-py` (external); `V-evand-exact-certificates` (first-party, premises) |
+
+<!-- END verification code -->
+
+<!-- This document follows common-doc-guidelines.md.
+See github.com/jlevy/practical-prose and review guidelines before editing.
+-->

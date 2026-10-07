@@ -1,0 +1,61 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "assertions_enabled": true,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "check_hashes.py"
+      ],
+      "cwd": "refinement-v1.1.0",
+      "started": "2026-10-07T23:12:37.795535+00:00",
+      "seconds": 0.06391408899798989,
+      "exit_code": 0,
+      "log": "n68-check-1.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "verify.py",
+        "n68.json",
+        "--n",
+        "68",
+        "--reference-side",
+        "8.798795237221"
+      ],
+      "cwd": "refinement-v1.1.0",
+      "started": "2026-10-07T23:12:37.859684+00:00",
+      "seconds": 2.2716286500217393,
+      "exit_code": 0,
+      "log": "n68-check-2.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent_support_check.py",
+        "n68.json",
+        "--n",
+        "68"
+      ],
+      "cwd": "refinement-v1.1.0",
+      "started": "2026-10-07T23:12:40.131523+00:00",
+      "seconds": 0.9528639239724725,
+      "exit_code": 0,
+      "log": "n68-check-3.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "verify_analytic.py"
+      ],
+      "cwd": "refinement-v1.1.0",
+      "started": "2026-10-07T23:12:41.084581+00:00",
+      "seconds": 4.070532424026169,
+      "exit_code": 0,
+      "log": "n68-check-4.log"
+    }
+  ]
+}

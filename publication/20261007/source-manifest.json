@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "jlevy/squares",
+    "commit": "2af487e7cfe85d84b2a67fa984e2d36a77548d97",
+    "path": "packing/frontier/n-068.md",
+    "file": "sources/register-n068.md",
+    "sha256": "730f594d22fd0211666b106c5ad5ecd4a33a97e9b137f6d326067bf69a4148f0",
+    "url": "https://github.com/jlevy/squares/blob/2af487e7cfe85d84b2a67fa984e2d36a77548d97/packing/frontier/n-068.md",
+    "retrieved_utc": "2026-10-07T23:13:08.326109+00:00"
+  },
+  {
+    "repository": "evand/square-packing",
+    "commit": "6069054020e1c78a395aa90a689332b4a1e6e2cd",
+    "path": "LICENSE",
+    "file": "sources/daniel-LICENSE.txt",
+    "sha256": "c51886c0f7e6724a7d89fc22cb237a1688ba1bbff04cb21a13b8e1a01fb15578",
+    "url": "https://github.com/evand/square-packing/blob/6069054020e1c78a395aa90a689332b4a1e6e2cd/LICENSE",
+    "retrieved_utc": "2026-10-07T23:11:57.779722+00:00"
+  },
+  {
+    "repository": "evand/square-packing",
+    "commit": "6069054020e1c78a395aa90a689332b4a1e6e2cd",
+    "path": "search/exact/batch/certs/n-68.cert",
+    "file": "sources/daniel-n68.cert",
+    "sha256": "871fb854b07417fa2178c14e933f5c1ccf8f35d8280b93394b2109aebc8b2c68",
+    "url": "https://github.com/evand/square-packing/blob/6069054020e1c78a395aa90a689332b4a1e6e2cd/search/exact/batch/certs/n-68.cert",
+    "retrieved_utc": "2026-10-07T23:11:57.779722+00:00"
+  },
+  {
+    "repository": "franciscouzo/square-packing",
+    "commit": "6042c56b43b64c09fe5a32c64879e698f399beaf",
+    "path": "n68.txt",
+    "file": "sources/couzo-n68.txt",
+    "sha256": "425ec02ce3b608649223d21b2e5e80cd1a53e9e7cfd48c3e4b1640b2e2d0b770",
+    "url": "https://github.com/franciscouzo/square-packing/blob/6042c56b43b64c09fe5a32c64879e698f399beaf/n68.txt",
+    "retrieved_utc": "2026-10-07T23:11:53.850138+00:00"
+  }
+]

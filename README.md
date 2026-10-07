@@ -2,7 +2,9 @@
 
 ## Latest refinement: v1.1.0
 
-An updated certificate proves **s(68) ≤ 8.798795237218283903** (rounded upward), improving the v1.0.0 side by approximately 2.716097423319033 × 10⁻¹². See the [new certificate and verification instructions](refinement-v1.1.0/README.md) and the [v1.1.0 release](https://github.com/lollipoll/certified-square-packing-68/releases/tag/v1.1.0).
+An updated certificate proves **s(68) ≤ 8.798795237218283902576680967021394083521019030227879263240370** (the full exact terminating decimal). It improves the v1.0.0 side by approximately 2.716097423319033 × 10⁻¹². See the [certificate and verification instructions](refinement-v1.1.0/README.md) and [v1.1.0 release](https://github.com/lollipoll/certified-square-packing-68/releases/tag/v1.1.0).
+
+**Registration requested, 7 October 2026:** [jlevy/squares issue #428](https://github.com/jlevy/squares/issues/428). The [dated exact comparison and fresh replay receipts](publication/20261007/README.md) show an improvement of exactly `8798795237260591647898096977212073675963/100000000000000000000000000000000000000000000000000000000000` (about `8.79879523726059e-20`) over Daniel's smallest verified retrieved n68 certificate. The shorter upward-rounded display `8.798795237218283903` is larger than Daniel's bound and is not the improving ceiling requested. Review is pending; no register acceptance is claimed. The [existing submission to David Ellsworth](https://github.com/Davidebyzero/packing_squares_in_squares__tools/issues/4) remains linked, and the priority/comparison caveat for [earlier issue #2](https://github.com/Davidebyzero/packing_squares_in_squares__tools/issues/2) remains unresolved.
 
 This is a certified refinement of the existing packing family. The tighter contact branch is present in Francisco Couzo's earlier public coordinates; the starting construction and earlier contributors retain their attribution. Unrestricted local and global optimality remain unproved. Material below describes the earlier v1.0.0 certificate unless otherwise labeled.
 

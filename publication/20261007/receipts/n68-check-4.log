@@ -1,0 +1,22 @@
+All 437 contact polynomials match the exact geometric reconstruction; selected basis verified.
+
+Checking verify_root
+{'valid': True, 'dimension': 153, 'radius': '1/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', 'residual_preconditioned_float': 4.975419685674028e-121, 'jacobian_defect_float': 3.163519510458388e-11, 'seconds': 0.5853005180251785}
+
+Checking verify_elimination
+{'valid': True, 'dimension': 137, 'box_radius': '1/100000000000', 'uniform_defect_bound_float': 8.444150250088376e-10}
+
+Checking verify_family_minimum
+{'valid': True, 'box_radius': '1/100000000000', 'minimum_signed_inverse_coefficient_float': 1.604038e-06, 'inverse_uncertainty_bound_float': 1.5305618200070556e-06}
+
+Checking verify_fixed_angle
+{'valid': True, 'all_halfplanes_checked': 10200, 'dual_terms': 32, 'gap_float': 4.5803874681817515e-61, 'seconds': 0.7829434120212682}
+
+Checking test_verifiers
+
+All analytic and restricted-bound checks passed. Delivered files were not changed.
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 1.490s
+
+OK
