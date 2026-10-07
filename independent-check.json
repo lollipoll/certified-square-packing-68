@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "method": "exact rational center/projection-half-width check",
+  "acceptance_tolerance": "0",
+  "n": 68,
+  "container_side": "8798795237221/1000000000000",
+  "pairs_checked": 2278,
+  "minimum_wall_gap": "94528211535083/1873109104598046000000000000",
+  "wall_witness": [
+    0,
+    "bottom"
+  ],
+  "minimum_pair_gap": "2648882995461292/129668570340299116873757826843",
+  "pair_witness": [
+    56,
+    60
+  ],
+  "wall_failures": [],
+  "overlaps": [],
+  "certificate_sha256": "00e402139c76663a4bac8dbaed8705d1b8a04ccfd32f2945065f70ade5d6eb19"
+}

@@ -1,0 +1,32 @@
+{
+  "valid": true,
+  "count_expected": 68,
+  "count_actual": 68,
+  "pairs_checked": 2278,
+  "wall_inequalities_checked": 1088,
+  "acceptance_tolerance": "0",
+  "unit_squared_error": "0",
+  "right_angle_dot_error": "0",
+  "opposite_edge_error": "0",
+  "minimum_wall_gap": "94528211535083/1873109104598046000000000000",
+  "wall_witness": [
+    0,
+    0,
+    "bottom"
+  ],
+  "minimum_pair_gap": "2648882995461292/129668570340299116873757826843",
+  "pair_witness": {
+    "i": 56,
+    "j": 60,
+    "axis_owner": 56,
+    "edge": 1,
+    "order": "j_before_i"
+  },
+  "max_boundary_violation": "0",
+  "max_pair_penetration": "0",
+  "violating_wall_inequalities": [],
+  "overlapping_pairs": [],
+  "mode": "exact Fraction, zero tolerance",
+  "container_side": "8798795237221/1000000000000",
+  "input_sha256": "00e402139c76663a4bac8dbaed8705d1b8a04ccfd32f2945065f70ade5d6eb19"
+}
