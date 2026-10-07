@@ -1,5 +1,11 @@
 # A certified refinement of the 68-unit-square packing
 
+## Latest refinement: v1.1.0
+
+An updated certificate proves **s(68) ≤ 8.798795237218283903** (rounded upward), improving the v1.0.0 side by approximately 2.716097423319033 × 10⁻¹². See the [new certificate and verification instructions](refinement-v1.1.0/README.md) and the [v1.1.0 release](https://github.com/lollipoll/certified-square-packing-68/releases/tag/v1.1.0).
+
+This is a certified refinement of the existing packing family. The tighter contact branch is present in Francisco Couzo's earlier public coordinates; the starting construction and earlier contributors retain their attribution. Unrestricted local and global optimality remain unproved. Material below describes the earlier v1.0.0 certificate unless otherwise labeled.
+
 This repository gives an exact construction of 68 nonoverlapping unit squares
 inside a square of side
 
