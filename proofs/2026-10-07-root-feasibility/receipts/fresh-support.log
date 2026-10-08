@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "method": "fresh rational row reduction and center/support geometry; axes selected anew",
+  "selected_row_rank": 153,
+  "proposed_equations_implied": 437,
+  "unit_frames": 68,
+  "pairs": 2278,
+  "pair_exact_contacts": 122,
+  "pair_strict": 2156,
+  "support_wall_conditions": 272,
+  "wall_exact_contacts": 24,
+  "wall_strict": 248,
+  "seconds": 4.7780163190327585,
+  "shares": "released system and root witness; prior contraction proof reviewed and replayed separately",
+  "imports_submitted_verifier_code": false,
+  "reads_submitted_identity_multipliers": false
+}

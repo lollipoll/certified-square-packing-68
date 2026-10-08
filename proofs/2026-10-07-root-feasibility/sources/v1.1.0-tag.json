@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/v1.1.0",
+  "node_id": "REF_kwDOU--LJLByZWZzL3RhZ3MvdjEuMS4w",
+  "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/git/refs/tags/v1.1.0",
+  "object": {
+    "sha": "fded686668e29258dad2eb29d0482fa3fd51bd6b",
+    "type": "commit",
+    "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/git/commits/fded686668e29258dad2eb29d0482fa3fd51bd6b"
+  }
+}

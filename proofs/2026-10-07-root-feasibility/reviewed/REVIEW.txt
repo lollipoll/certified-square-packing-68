@@ -1,0 +1,148 @@
+Review of the exact n=68 root-feasibility package
+8 October 2026 UTC / 7 October 2026 America/Chicago
+
+Verdict: the submitted proof supports s(68) <= L*, with no blocking issue found
+in this computational review. This is a feasible exact algebraic construction.
+The publication draft is appropriately limited. No human peer review,
+proof-assistant formalization or unrestricted optimality is established here.
+
+Reviewed original: root-feasibility-proof-20261007.tar.gz
+Size: 767243 bytes
+SHA256: c124d77e50a5dcd2b8b4e26c34bc0ae258d15dcb87cef84111eb26ea8ad8910c
+
+L* is coordinate 136 of the unique root of the specified 153-equation rational
+polynomial system in its original radius-10^-100 box. The side starts
+8.798795237218283902576680967021394083521019030227879263240369541961...
+That decimal display is an approximation; the system and isolating box define
+the number exactly. The root is nonsingular and isolated, so it is algebraic.
+A univariate minimal polynomial was not computed and is not needed for this
+feasibility theorem.
+
+Reproduction and input binding
+
+The complete standard-library offline replay passed in 10.596 seconds in this
+review environment. Its log is review-replay.json. It checked the study's 70
+manifest hashes, the released certificate and its two rational geometry
+checks, geometric polynomial binding, root contraction, elimination, earlier
+restricted-family and fixed-angle lower bounds, seven earlier tests, the two
+new all-inequality implementations, and all 20 rejection controls.
+
+The system, root witness and elimination witness match the retained previous
+campaign byte for byte. The authoritative rational n68.json retains SHA256
+6d4f72debae83b5825e91f7b090e0cee08851ad7b85400343c0dee52f468dff9.
+All 70 sealed manifest entries remain unchanged after the replay. Construction
+metadata agrees with all 153 selected rows, 22 gauges, declared groups and
+fixed rational angle parameters.
+
+Mathematical audit
+
+The contraction proof correctly bounds the infinity-norm derivative of
+z -> z - R F(z) on the box and shows that its image lies strictly inside.
+The inverse defect implies that R and the Jacobian are nonsingular. Thus the
+unique fixed point is the unique zero of F in the box. The quadratic Hessian
+bound and all arithmetic used for acceptance are exact rationals.
+
+Both new implementations reconstruct the geometry from the selected system.
+The exact unit/orthogonality identities give 68 unit-square frames. Every
+unordered pair is covered once, without neighbor culling: four corners of one
+square are proved to lie beyond a supporting edge of the other. Convexity
+then proves disjoint interiors. All four corners against all four walls give
+1,088 containment predicates. Boundary contact is allowed.
+
+Results agree:
+  2,278 unordered pairs; 1,088 corner/wall predicates; 68 unit frames;
+  255 exact-zero predicates and 9,945 strictly positive predicates;
+  437 proposed polynomial equations implied by the 153 selected equations.
+
+The zero identities are checked coefficient by coefficient as constant
+rational linear combinations, rather than accepted numerical residuals.
+They use at most eight rows, with coefficients -1,-1/2,1/2,1,3/2. There are
+no variable denominators in these identities. The positive branches use
+sound outward enclosures of the original root box. The smallest certified
+positive predicate margin is
+16598222465128834048351 / 100000000000000000000000000000
+at square 27's top-wall predicate, approximately 1.6598222465e-7.
+
+The two implementations use different arithmetic paths: expanded Fraction
+polynomial intervals and coefficient identities versus direct dyadic vertex
+intervals and denominator-cleared integer coefficient identities. They share
+the selected system, root witness, supplied multipliers and released root
+proof. They are not independent human reviews. Deliberately altered
+coefficients, geometry, coverage, bounds, root and system were rejected.
+
+Additional review calculation
+
+support_audit.py is newly written for this review. It imports no submitted
+verifier or polynomial code, reads no supplied identity multipliers, derives
+the rational row relations afresh, and chooses separating axes anew using
+center/support-function geometry. Exact signs or derived zero identities
+justify every absolute-value branch in each square's projection radius.
+It verified all 68 frames, all 437 proposed equations, all 2,278 pairs, and
+272 full-square wall support conditions in 3.153 seconds. Results:
+  122 touching pairs and 2,156 strictly separated pairs;
+  24 exact wall contacts and 248 strictly satisfied wall support conditions.
+The different wall/contact counts reflect full-square support conditions
+versus individual vertex predicates; they are consistent.
+
+This additional calculation shares the released system and root witness and
+relies on the reviewed/replayed contraction theorem. It is an additional
+computational check, not a separate human reviewer or formal proof kernel.
+Its detailed ledger is support-audit.json.
+
+Restricted-family attainment corollary
+
+The same root satisfies F_0,...,F_152=0, lies inside the earlier radius-10^-11
+family box, and is now proved to be a genuine packing. The earlier uniform
+inverse-Jacobian proof therefore has an attained packing minimum in its
+precisely specified restricted contact family: F_0,...,F_144 remain equalities,
+and the final eight rows are feasible inequalities with signs
+  [1,1,1,1,1,-1,1,1].
+For every member of that contact relaxation in the stated box, L >= L*;
+equality forces the same reduced-coordinate root. Intersecting it with actual
+packings preserves that statement, and the root belongs to the intersection.
+
+Keep every restriction explicit: eight shared-angle groups, all other fixed
+orientations, 22 coordinate gauges, the held contact equalities, the eight
+chosen contact inequalities, and the neighborhood. Some touching pairs permit
+alternative separating branches; no conclusion about all nearby packings
+follows. This corollary adds attainment to the old restricted result; it
+does not prove unrestricted local or global optimality. The original sealed
+proof note conservatively omits this corollary and has not been modified.
+
+Numerical and public context
+
+The algebraic side is rigorously below the published rational side by about
+4.58038746818e-61. The original exact rational certificate remains useful and
+unchanged. The contribution is a completed construction proof, with a minute
+additional reduction of the bound; it does not identify a new arrangement.
+
+Fresh GitHub API retrieval at review time found Evan Daniel's repository head
+still at 6069054020e1c78a395aa90a689332b4a1e6e2cd, dated
+2026-10-07T22:44:31Z. EXACT_FORMS.md SHA256 is
+bb07621b47e16229d74d9b3087d9a2a4d49876843f426929fac0ce5cfa5b04b7;
+its n=68 row remains open after a timeout. His minimal-polynomial/number-field
+format is a different deliverable. This limited inspection establishes no
+worldwide novelty or priority. jlevy/squares issue #428 remains open with no
+comments, last updated 2026-10-07T23:19:05Z. Nothing was posted in this review.
+
+Publication recommendation
+
+Publish the original proof as a new supplementary release, preserving v1.1.0,
+its tag, assets and rational certificate. Include this review as supplementary
+computational evidence. Add dated updates to existing submissions #428 and
+Davidebyzero's issue #4. State s(68)<=L*, distinguish the exact specification
+from an approximate decimal, retain all lineage credits, and request review.
+If presenting the corollary, call it an attained minimum only within the fully
+specified restricted contact family. No unrestricted lower-bound update.
+
+The next research recommendation is a bounded structural construction search
+using improved component packings and selective removal from larger packings.
+Start with a fresh source/issue comparison and identify one concrete opportunity
+not already covered by recent submissions. That work belongs in
+square-packing-frontier; this publication belongs in square-packing-68-refinement.
+
+Offline commands inside the extracted reviewed bundle:
+  python3 -B 2026-10-07-root-feasibility/reproduce.py
+  python3 -B support_audit.py
+Assertions must remain enabled. The second command writes its new ledger next
+to the review files; the sealed original proof inputs remain unchanged.

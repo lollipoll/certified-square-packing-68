@@ -1,0 +1,48 @@
+Publish the reviewed exact n=68 root-feasibility result from the current square-packing-68-refinement folder.
+
+Read applicable AGENTS.md and the current handoff. Locate the existing public-repository checkout; its repository is https://github.com/lollipoll/certified-square-packing-68, but do not assume that is the current local folder name. The prior publication checkout was under the sibling square-packing-frontier/publication-refresh-20261007/certified-square-packing-68 folder. Inspect local changes before using it; preserve unrelated work. Use an isolated publication branch or worktree when appropriate.
+
+The reviewed bundle n68-root-feasibility-reviewed-20261007.tar.gz is provided in this workspace. Extract it safely into a new review directory and read REVIEW.txt and 2026-10-07-root-feasibility/PROOF.txt. It contains the original proof archive unchanged, the full proof directory, the fresh review replay, and support_audit.py with its ledger. The original root-feasibility-proof-20261007.tar.gz is 767243 bytes, SHA256:
+c124d77e50a5dcd2b8b4e26c34bc0ae258d15dcb87cef84111eb26ea8ad8910c
+
+Objective: publish this exact feasible algebraic construction and update its existing submissions. This prompt authorizes the repository commits/push, a new supplementary GitHub release, and one substantive dated update on each of the two existing issues below, after the checks pass. Do not send other messages or open additional registration issues. No search or optimization campaign belongs in this session.
+
+1. Bind and reproduce the reviewed result.
+Confirm the original archive hash, the sealed package's manifest, and the published v1.1.0 tag, previously resolved to fded686668e29258dad2eb29d0482fa3fd51bd6b. Preserve the released rational n68.json SHA256:
+6d4f72debae83b5825e91f7b090e0cee08851ad7b85400343c0dee52f468dff9
+Run from the extracted review bundle with ordinary Python and assertions enabled:
+  python3 -B 2026-10-07-root-feasibility/reproduce.py
+  python3 -B support_audit.py
+Both must pass. Confirm the released system and root witness bind to the published inputs. Stop on any mismatch rather than silently changing the construction. Retain fresh receipts without altering the sealed inputs.
+
+2. Refresh the limited public comparison.
+Inspect the current n=68 register case, relevant pending submissions, Daniel's current source and exact-form table, and both existing issues:
+  https://github.com/jlevy/squares/issues/428
+  https://github.com/Davidebyzero/packing_squares_in_squares__tools/issues/4
+Related work: https://github.com/jlevy/squares/issues/419
+Use normal permitted retrieval and pin successful reads. Do not retry a denied escalation. If current comparison access is incomplete, publish the proved construction with explicitly dated/limited comparisons; its mathematical truth does not depend on being the best worldwide. Review earlier Davidebyzero issue #2 if new comparable evidence is available. Do not claim priority from an empty or inaccessible submission.
+
+3. Prepare a new, self-contained publication.
+Add the unchanged proof package under an appropriate new dated proof directory in the public repository. Include the review report and fresh supplementary support-function check with honest shared-assumption descriptions. Provide a short theorem note and one-command offline reproduction instructions for the layout actually published. Clearly distinguish new material from preserved v1.1.0 files.
+
+Claim: if L* is coordinate 136 of the unique root of the specified rational polynomial system in its original certified radius-10^-100 box, then s(68)<=L*. Specify the exact system and box by files and hashes. Show the root's approximate decimal only as an approximation; it begins
+8.798795237218283902576680967021394083521019030227879263240369541961...
+The improvement over the unchanged rational certificate is about 4.58039e-61. A rational upper endpoint of the root-side enclosure may also be displayed if recomputed exactly and clearly distinguished from the rational-coordinate witness's side.
+
+Report the all-pairs/unit/containment checks, 255 exact-zero and 9,945 strictly positive predicates, all 437 implied equations, and 20 rejection controls. Describe the two submitted arithmetic implementations and the additional review calculation accurately. They share proof inputs and the root theorem; neither computational review nor multiple scripts constitute independent human peer review or proof-assistant formalization.
+
+The review also establishes attainment within the earlier precisely restricted contact family. Include that corollary only after binding the old theorem to the same root. Retain every restriction: held F_0,...,F_144 equalities, final eight sign-corrected contact inequalities, fixed orientations, shared-angle groups, 22 gauges, and radius-10^-11 neighborhood. Do not promote this to unrestricted local or global optimality or change the unrestricted lower-bound column.
+
+Retain Seth Rehwaldt's credit with OpenAI Codex assistance, Francisco Couzo's earlier tighter branch, Jake Loyd and the documented preceding contributors. Acknowledge Daniel's related algebraic work without claiming that a multivariate isolating specification completes his minimal-polynomial format. No new arrangement or worldwide priority claim.
+
+4. Publish and update existing submissions.
+Use a new release, preferably v1.2.0 with a title such as "Exact algebraic n=68 packing: certified root feasibility". Check for an existing equivalent publication first; do not duplicate it or overwrite any existing tag. Keep v1.1.0, all older assets and certificate bytes intact.
+
+Attach the original unchanged root-feasibility-proof-20261007.tar.gz and a reviewed supplementary package containing the review evidence. Publish hashes and sizes. Commit/push only the intended proof/publication additions and documentation changes. Once public, read back the release and verify downloadable asset hashes and sizes.
+
+Add one concise dated update to jlevy/squares #428 and one to Davidebyzero's issue #4, linking the new release and proof. Explain that the previously missing exact-root feasibility obligation is now proved, give the exact definition of L*, summarize reproducibility and scope, and request review. Preserve earlier dated statements as historical context. If the account owns issue #428, a clearly dated top update may also be added to its body to prevent its old "Not done" paragraph being read as current. Do not edit other people's content.
+
+5. Finish with an audit trail.
+Read back both issue updates and the repository/release. Record the public URLs, publication commit/tag, uploaded hashes, fresh check receipts and explicit preservation checks in a new local handoff. Report whether review/registration is still pending. Do not treat posting as acceptance. Leave no jobs running.
+
+If a required external action is blocked by permissions or connectivity, retain the fully prepared publication and exact remaining action in the handoff. Do not claim that an unperformed action succeeded.

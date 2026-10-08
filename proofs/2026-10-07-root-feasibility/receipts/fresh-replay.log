@@ -1,0 +1,14 @@
+Study manifest: 70 hashes PASS
+check_hashes.py: PASS
+verify.py: PASS
+independent_support_check.py: PASS
+check_polynomial_binding.py: PASS
+verify_root.py: PASS
+verify_elimination.py: PASS
+verify_family_minimum.py: PASS
+verify_fixed_angle.py: PASS
+test_verifiers.py: PASS
+verify_certificate.py: PASS
+verify_secondary.py: PASS
+controls.py: PASS
+ALL CHECKS PASS; seconds: 16.028 ; receipt: /tmp/n68-all-inequality-replay-c2wu6jif.json

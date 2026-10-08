@@ -1,0 +1,46 @@
+One comparison refresh pass, 2026-10-08 00:20-00:22 UTC (October 7 Chicago).
+
+Public source repository: lollipoll/certified-square-packing-68.
+The actual retained checkout was found at:
+/home/seth/square-packing-frontier/publication-refresh-20261007/certified-square-packing-68
+Its local v1.1.0 tag resolves to fded686668e29258dad2eb29d0482fa3fd51bd6b.
+A read-only git diff of refinement-v1.1.0 against that commit was empty.
+The entire released verification directory was copied before any replay.
+The prior publication handoff and tag/release readbacks are retained here.
+No applicable AGENTS.md was found in the workspace ancestry or campaign.
+The AGENTS.md in the sibling register source snapshot does not apply here.
+
+Ordinary curl retrieval of release API metadata failed: DNS resolution of
+api.github.com unavailable. Ordinary gh api retrieval of evand main failed
+connection. Neither action requested an escalation. No denied escalation was
+retried. Fresh API/revision authentication was therefore unavailable.
+
+The web reader successfully read:
+https://github.com/lollipoll/certified-square-packing-68/releases/tag/v1.1.0
+https://github.com/jlevy/squares/issues/419
+https://github.com/evand/square-packing/blob/main/search/exact/EXACT_FORMS.md
+https://github.com/Davidebyzero/packing_squares_in_squares__tools/issues/2
+
+The release still describes the rational certificate and root proof scope.
+Issue 419 lists n=68 among the unresolved cases, with msolve difficulties.
+The table's observed n=68 entry was:
+  open (timeout): 16 consistency rows -> 8 distinct irreduci
+The current table page did not expose a usable immutable revision through the
+reader. This observation must not be described as a newly authenticated Git
+head. Its retained full table is instead pinned to the previous successful
+retrieval at revision 6069054020e1c78a395aa90a689332b4a1e6e2cd, with SHA256
+bb07621b47e16229d74d9b3087d9a2a4d49876843f426929fac0ce5cfa5b04b7.
+retained-table-pin.json includes its prior retrieval time and immutable URL.
+No coordinates or side were retrieved from earlier issue #2 in this pass;
+the previous handoff records that comparison limit. Fresh issue 428 and the raw pinned table/API endpoints were
+unavailable through the reader; retained issue snapshots are explicitly labeled.
+
+Targeted searches for n=68 exact/algebraic packing and the side prefix returned
+no useful additional evidence. No equivalent completed all-inequality proof
+was identified in the inspected release, submission or table. This is a
+limited comparison, not evidence of worldwide novelty or priority. Historical
+exact solutions for different larger n=68 constructions are not equivalent
+certificates for this selected root.
+
+All retained bytes and this observation note are content-pinned in the study
+MANIFEST.json. They are comparison context, not hypotheses of the new theorem.

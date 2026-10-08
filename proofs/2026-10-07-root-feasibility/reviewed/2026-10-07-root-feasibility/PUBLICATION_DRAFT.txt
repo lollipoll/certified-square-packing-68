@@ -1,0 +1,39 @@
+UNPUBLISHED DRAFT — exact feasibility of the selected n=68 contact root
+
+Seth Rehwaldt, with OpenAI Codex assistance, has completed the missing
+all-inequality certificate for the selected algebraic contact root accompanying
+certified-square-packing-68 v1.1.0. If L* is the side coordinate of that system's
+uniquely enclosed root, the construction proves s(68)<=L*.
+
+Two standard-library arithmetic implementations check all 2,278 pairs, all
+1,088 corner/wall predicates and all 68 unit frames. Of 10,200 inequality
+predicates, 9,945 have strict rational interval bounds and 255 follow from
+exact contact identities. All 437 descriptive equations are verified rational
+linear combinations of the 153 selected equations. Twenty rejection controls
+pass. The system, gauges, orientations and original root enclosure are unchanged.
+
+The gain over the published rational side is approximately 4.58039e-61;
+mathematical completeness is the contribution. The released rational certificate
+and its bound remain valid. This is no claim of unrestricted optimality, a new
+arrangement, worldwide priority, or independent human review.
+
+Credit remains with Francisco Couzo for the earlier public tighter branch.
+The documented preceding development credits Sigvart Brendberg, Thomas Schadt,
+David Ellsworth, Joost de Winter, Allen Chang, Ruilin Wang and Jake Loyd, with
+Erich Friedman credited in the source history/communications. Daniel's separate
+algebraic-results submission is acknowledged as relevant related work.
+
+Local review package: PROOF.txt, certificate.json, coverage.tsv and reproduce.py.
+No artifact URL is asserted: this study has not been published.
+
+Published context:
+https://github.com/lollipoll/certified-square-packing-68/releases/tag/v1.1.0
+https://github.com/jlevy/squares/issues/428
+https://github.com/jlevy/squares/issues/419
+https://github.com/franciscouzo/square-packing/blob/3bfc47e4f53ab474cd7702cb81f831faf2f5846a/n68.txt
+https://kingbird.myphotos.cc/packing/square-68.svg
+
+The refreshed web table and submission still listed n=68 open. Fresh API
+revision retrieval was unavailable; retained comparison inputs are pinned to
+6069054020e1c78a395aa90a689332b4a1e6e2cd. This limited check found no completed
+equivalent proof in the inspected sources and does not establish novelty.

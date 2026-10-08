@@ -1,0 +1,87 @@
+{
+  "valid": true,
+  "controls": [
+    {
+      "control": "changed contact identity coefficient / primary",
+      "rejected": true
+    },
+    {
+      "control": "changed contact identity coefficient / secondary",
+      "rejected": true
+    },
+    {
+      "control": "missing unordered pair / primary",
+      "rejected": true
+    },
+    {
+      "control": "missing unordered pair / secondary",
+      "rejected": true
+    },
+    {
+      "control": "duplicate pair replacing another / primary",
+      "rejected": true
+    },
+    {
+      "control": "duplicate pair replacing another / secondary",
+      "rejected": true
+    },
+    {
+      "control": "missing wall predicate / primary",
+      "rejected": true
+    },
+    {
+      "control": "missing wall predicate / secondary",
+      "rejected": true
+    },
+    {
+      "control": "mismatched root hash / primary",
+      "rejected": true
+    },
+    {
+      "control": "mismatched root hash / secondary",
+      "rejected": true
+    },
+    {
+      "control": "altered declared unit frame / primary",
+      "rejected": true
+    },
+    {
+      "control": "altered declared unit frame / secondary",
+      "rejected": true
+    },
+    {
+      "control": "inflated positive interval bound / primary",
+      "rejected": true
+    },
+    {
+      "control": "inflated positive interval bound / secondary",
+      "rejected": true
+    },
+    {
+      "control": "false zero replacing a strict gap / primary",
+      "rejected": true
+    },
+    {
+      "control": "false zero replacing a strict gap / secondary",
+      "rejected": true
+    },
+    {
+      "control": "mismatched actual root center / contraction",
+      "rejected": true
+    },
+    {
+      "control": "changed actual selected system / geometric binding",
+      "rejected": true
+    },
+    {
+      "control": "nonunit norm (2c,s) / primary identity",
+      "rejected": true
+    },
+    {
+      "control": "nonunit norm (2c,s) / integer identity",
+      "rejected": true
+    }
+  ],
+  "count": 20,
+  "seconds": 4.797667537000962
+}

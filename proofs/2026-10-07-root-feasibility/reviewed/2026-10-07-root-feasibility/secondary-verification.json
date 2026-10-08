@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "method": "integer-cleared identities and direct dyadic vertex intervals",
+  "pairs": 2278,
+  "walls": 1088,
+  "unit_frames": 68,
+  "exact_contacts": 255,
+  "strict_predicates": 9945,
+  "proposed_equations_implied": 437,
+  "minimum_certified_positive_margin": "16598222465128834048351/100000000000000000000000000000",
+  "dyadic_bits": 420,
+  "shared_checks": "released root contraction and descriptive polynomial binding",
+  "seconds": 1.2529926659772173
+}

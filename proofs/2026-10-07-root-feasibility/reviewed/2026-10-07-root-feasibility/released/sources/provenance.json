@@ -1,0 +1,14 @@
+{
+  "review_date_utc": "2026-10-07",
+  "certificate_sha256": "6d4f72debae83b5825e91f7b090e0cee08851ad7b85400343c0dee52f468dff9",
+  "old_public_certificate_url": "https://github.com/lollipoll/certified-square-packing-68/blob/v1.0.0/n68.json",
+  "old_public_certificate_sha256": "00e402139c76663a4bac8dbaed8705d1b8a04ccfd32f2945065f70ade5d6eb19",
+  "archived_old_certificate_sha256": "f99162521cb8ef8e9c2099f0e1d07a6504eba193c3e6f96322ff6a7c1b275c82",
+  "old_certificates_exact_ordered_geometry_equal": true,
+  "old_hash_difference_reason": "Schema and metadata differ; the ordered rational x,y,t and side are equal",
+  "couzo_url": "https://github.com/franciscouzo/square-packing/blob/3bfc47e4f53ab474cd7702cb81f831faf2f5846a/n68.txt",
+  "couzo_coordinate_sha256": "425ec02ce3b608649223d21b2e5e80cd1a53e9e7cfd48c3e4b1640b2e2d0b770",
+  "couzo_fresh_public_bytes_equal_archived_source": true,
+  "kingbird_url": "https://kingbird.myphotos.cc/packing/squares_in_squares.html",
+  "full_original_archive_sha256": "36b6e718ea8f18bcd1215ddcc53f0af2df1681fdae86308348f7b460a42177b4"
+}

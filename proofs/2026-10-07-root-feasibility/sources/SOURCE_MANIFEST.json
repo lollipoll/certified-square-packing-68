@@ -1,0 +1,238 @@
+[
+  {
+    "name": "releases-before.json",
+    "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/releases?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.108Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "0ced5cebcabd29c4cc661d052737b3ba8d70f69c0627d64d6a69bf4d9ae596cb",
+    "bytes": 18377
+  },
+  {
+    "name": "tags-before.json",
+    "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/tags?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.008Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "874cbf89f5c64854e40e429fe3e945b7c00621c7d55ba6abbf1be999b137e305",
+    "bytes": 1051
+  },
+  {
+    "name": "v1.1.0-tag.json",
+    "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/git/ref/tags/v1.1.0",
+    "retrieved_at": "2026-10-08T01:53:02.988Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "5991c75a48c0f4733a5999f04563ec77b3346b97100ed580d2e0e70956ca9384",
+    "bytes": 414
+  },
+  {
+    "name": "public-main-before.json",
+    "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/commits/main",
+    "retrieved_at": "2026-10-08T01:53:03.157Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "4c0eda390b389029434c35e28c981f821dcf494d9ad5463eaad3821dd0e6419e",
+    "bytes": 107486
+  },
+  {
+    "name": "jlevy-428.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/428",
+    "retrieved_at": "2026-10-08T01:53:02.563Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "b49a82340f9ee911bb3b1887384b31872569e79c75332f98b868c5a2291c23c0",
+    "bytes": 9989
+  },
+  {
+    "name": "jlevy-428-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/428/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.083Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "name": "jlevy-419.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/419",
+    "retrieved_at": "2026-10-08T01:53:03.058Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "82269fa67d3259b98a35d3eb2b7bd1de5902d3c83672787eb39b56a6d88af0d0",
+    "bytes": 8721
+  },
+  {
+    "name": "jlevy-419-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/419/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.034Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "name": "davide-4.json",
+    "url": "https://api.github.com/repos/Davidebyzero/packing_squares_in_squares__tools/issues/4",
+    "retrieved_at": "2026-10-08T01:53:03.047Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "18c8d1aaf8edc03114b70239e2ea62289509aebca1b8986e14b8a31cfe57384f",
+    "bytes": 6136
+  },
+  {
+    "name": "davide-4-comments.json",
+    "url": "https://api.github.com/repos/Davidebyzero/packing_squares_in_squares__tools/issues/4/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.070Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "d17f12d3f822a3066c49d10d5fc37b68c63f4a9c42c46c21717b0b1eb3426766",
+    "bytes": 4284
+  },
+  {
+    "name": "davide-2.json",
+    "url": "https://api.github.com/repos/Davidebyzero/packing_squares_in_squares__tools/issues/2",
+    "retrieved_at": "2026-10-08T01:53:03.117Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "82d340da9c5fa30f6d6a7918e4639ea46b8418d095f8b647d6d456e1c46c76b3",
+    "bytes": 3066
+  },
+  {
+    "name": "davide-2-comments.json",
+    "url": "https://api.github.com/repos/Davidebyzero/packing_squares_in_squares__tools/issues/2/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.087Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "name": "pending-n68.json",
+    "url": "https://api.github.com/search/issues?q=repo%3Ajlevy%2Fsquares+is%3Aissue+is%3Aopen+68&per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.117Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "79c1d9be07e1d4281945b60549ecf5f6cadca886ccf19779e08d373137bea02c",
+    "bytes": 30990
+  },
+  {
+    "name": "register-head.json",
+    "url": "https://api.github.com/repos/jlevy/squares/commits/main",
+    "retrieved_at": "2026-10-08T01:53:03.054Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "f6660b63e29e5162f71b023c88d1c7068ad3b18e1d15c74c4744ffe64c517556",
+    "bytes": 16979
+  },
+  {
+    "name": "daniel-head.json",
+    "url": "https://api.github.com/repos/evand/square-packing/commits/main",
+    "retrieved_at": "2026-10-08T01:53:03.047Z",
+    "format": "JSON normalized from successful gh api read",
+    "sha256": "c38bfed29d725c1c18ea565d86a82c1c877516174e60699187e30318b366efc1",
+    "bytes": 4796
+  },
+  {
+    "name": "register-n068.md.api.json",
+    "url": "https://api.github.com/repos/jlevy/squares/contents/packing/frontier/n-068.md?ref=84881f214086bf5b8ce83a714c4fda6d7be7b2d1",
+    "retrieved_at": "2026-10-08T01:53:23.384Z",
+    "sha256": "5f83faf328d4e53fe560dc996c430e758dd0aba64d785ce36a04b50fdd3e8a90",
+    "bytes": 23388
+  },
+  {
+    "name": "daniel-EXACT_FORMS.md.api.json",
+    "url": "https://api.github.com/repos/evand/square-packing/contents/search/exact/EXACT_FORMS.md?ref=6069054020e1c78a395aa90a689332b4a1e6e2cd",
+    "retrieved_at": "2026-10-08T01:53:23.385Z",
+    "sha256": "7c98744006c10d8cf7de4f3e350c4e85faa24395dc08ae5ac893056988aede82",
+    "bytes": 37373
+  },
+  {
+    "name": "daniel-n68.cert.api.json",
+    "url": "https://api.github.com/repos/evand/square-packing/contents/search/exact/batch/certs/n-68.cert?ref=6069054020e1c78a395aa90a689332b4a1e6e2cd",
+    "retrieved_at": "2026-10-08T01:53:23.385Z",
+    "sha256": "2d72586d0c8fe8656d186aac2eed4b1357642c3368e19348daaa90483e30fc16",
+    "bytes": 17876
+  },
+  {
+    "name": "daniel-readme.md.api.json",
+    "url": "https://api.github.com/repos/evand/square-packing/contents/search/exact/README.md?ref=6069054020e1c78a395aa90a689332b4a1e6e2cd",
+    "retrieved_at": "2026-10-08T01:53:23.385Z",
+    "sha256": "bdda337aa75707a52c3912f871743daf886dd247acec07bfed15a3fe2f98a0a5",
+    "bytes": 19432
+  },
+  {
+    "name": "jlevy-375.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/375",
+    "retrieved_at": "2026-10-08T01:53:45.124Z",
+    "sha256": "5bbc465387a0527096eecad0bb14cff9b9e9fd899dcb7967bb48c6c8fc20af9e",
+    "bytes": 7368
+  },
+  {
+    "name": "jlevy-375-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/375/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:45.160Z",
+    "sha256": "57b97ec313dc41bb09375012b0462f5f614dcfa9204fad0e78a5fb70fa9681a6",
+    "bytes": 23954
+  },
+  {
+    "name": "jlevy-399.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/399",
+    "retrieved_at": "2026-10-08T01:53:45.159Z",
+    "sha256": "b4b9bf8026925499dae8232a901a937752e3faa1d98f22311042fea5769e70df",
+    "bytes": 5854
+  },
+  {
+    "name": "jlevy-399-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/399/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:45.134Z",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "name": "jlevy-420.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/420",
+    "retrieved_at": "2026-10-08T01:53:45.178Z",
+    "sha256": "3af0aa6b65d70b17914edaa53bd7dc4be0452147369ca2a1376e41ccd794e283",
+    "bytes": 5233
+  },
+  {
+    "name": "jlevy-420-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/420/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:45.137Z",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  {
+    "name": "jlevy-422.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/422",
+    "retrieved_at": "2026-10-08T01:53:45.155Z",
+    "sha256": "39d0b8b6c698d7dc074c9779a7bec11ed195269a24b456a16e7adb6b2080fbb0",
+    "bytes": 12275
+  },
+  {
+    "name": "jlevy-422-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/422/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:45.159Z",
+    "sha256": "2c204bf16c04e59b5620099e2f2229e710732a03ef5b9cfbc06d4785d0d982f5",
+    "bytes": 11734
+  },
+  {
+    "name": "daniel-n68.cert",
+    "url": "https://github.com/evand/square-packing/blob/6069054020e1c78a395aa90a689332b4a1e6e2cd/search/exact/batch/certs/n-68.cert",
+    "retrieved_via": "daniel-n68.cert.api.json",
+    "sha256": "871fb854b07417fa2178c14e933f5c1ccf8f35d8280b93394b2109aebc8b2c68",
+    "bytes": 12112,
+    "git_blob": "e8c74fc1eea703364ff7d2f168a22e880568d888"
+  },
+  {
+    "name": "register-n068.md",
+    "url": "https://github.com/jlevy/squares/blob/84881f214086bf5b8ce83a714c4fda6d7be7b2d1/packing/frontier/n-068.md",
+    "retrieved_via": "register-n068.md.api.json",
+    "sha256": "730f594d22fd0211666b106c5ad5ecd4a33a97e9b137f6d326067bf69a4148f0",
+    "bytes": 16191,
+    "git_blob": "7b3c30203300d11980bfd6207f80edf2c14c6d5b"
+  },
+  {
+    "name": "daniel-EXACT_FORMS.md",
+    "url": "https://github.com/evand/square-packing/blob/6069054020e1c78a395aa90a689332b4a1e6e2cd/search/exact/EXACT_FORMS.md",
+    "retrieved_via": "daniel-EXACT_FORMS.md.api.json",
+    "sha256": "bb07621b47e16229d74d9b3087d9a2a4d49876843f426929fac0ce5cfa5b04b7",
+    "bytes": 26291,
+    "git_blob": "46873670807d0242df0bbcba9170bb4ccf085345"
+  },
+  {
+    "name": "daniel-readme.md",
+    "url": "https://github.com/evand/square-packing/blob/6069054020e1c78a395aa90a689332b4a1e6e2cd/search/exact/README.md",
+    "retrieved_via": "daniel-readme.md.api.json",
+    "sha256": "20acd7d6befa9a3c8f65b88c5d4087f8b996dde940f35b0e982087dac8ec73ef",
+    "bytes": 13296,
+    "git_blob": "a93a9d30dec147d0058d31960dac1635b92d59ce"
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "recorded_at_utc": "2026-10-07T13:50:24.022599+00:00",
+  "sources": [
+    {
+      "file": "published_n68_exact.json",
+      "sha256": "f99162521cb8ef8e9c2099f0e1d07a6504eba193c3e6f96322ff6a7c1b275c82",
+      "bytes": 10037,
+      "url": "https://github.com/lollipoll/certified-square-packing-68/releases/tag/v1.0.0",
+      "version": "v1.0.0 as identified by the user",
+      "retrieval": "Byte-identical copy of the supplied baseline final certificate; fresh release retrieval unavailable.",
+      "baseline_path": "baseline/packing_n/candidate-export/originals/results/opportunity_pilot_20261006/final/n68_exact.json"
+    },
+    {
+      "file": "kingbird-n68.svg",
+      "sha256": "8387ef9c17e77c13c00bb3a62b01784a57e567a7a42fc13c1028e2690c0ef6ce",
+      "bytes": 15632,
+      "prior_download": {
+        "file": "kingbird-n68.svg",
+        "url": "https://kingbird.myphotos.cc/packing/square-68.svg",
+        "sha256": "8387ef9c17e77c13c00bb3a62b01784a57e567a7a42fc13c1028e2690c0ef6ce",
+        "bytes": 15632,
+        "retrieved_at_utc": "2026-10-07T03:08:41.782015+00:00",
+        "http_date": "Wed, 07 Oct 2026 03:08:40 GMT",
+        "http_last_modified": "Thu, 24 Sep 2026 02:11:10 GMT",
+        "etag": "\"3d10-65c311d00ab80\"",
+        "headers_sha256": "61ed85919fb567c87e20865886125ca31ee91a2e4da8fd20e2e65ba1635bb66f"
+      },
+      "prior_hash_match": true
+    },
+    {
+      "file": "kingbird.html",
+      "sha256": "b99c3265430838d1f4f117a81fb2a84b5faa2f4cb5d915a3794adc3bc26a4444",
+      "bytes": 209455,
+      "prior_download": {
+        "file": "kingbird.html",
+        "url": "https://kingbird.myphotos.cc/packing/squares_in_squares.html",
+        "sha256": "b99c3265430838d1f4f117a81fb2a84b5faa2f4cb5d915a3794adc3bc26a4444",
+        "bytes": 209455,
+        "retrieved_at_utc": "2026-10-07T03:08:42.243865+00:00",
+        "http_date": "Wed, 07 Oct 2026 03:08:40 GMT",
+        "http_last_modified": "Thu, 24 Sep 2026 15:18:52 GMT",
+        "etag": "\"3322f-65c3c1e098f00\"",
+        "headers_sha256": "c219c0fbca910c6d5885f7875100b2e943dfa24f0876f1b6439723ffd196aab1"
+      },
+      "prior_hash_match": true
+    },
+    {
+      "file": "franciscouzo-n68.txt",
+      "sha256": "425ec02ce3b608649223d21b2e5e80cd1a53e9e7cfd48c3e4b1640b2e2d0b770",
+      "bytes": 4982,
+      "prior_download": {
+        "file": "franciscouzo-n68.txt",
+        "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/6042c56b43b64c09fe5a32c64879e698f399beaf/n68.txt",
+        "sha256": "425ec02ce3b608649223d21b2e5e80cd1a53e9e7cfd48c3e4b1640b2e2d0b770",
+        "bytes": 4982,
+        "retrieved_at_utc": "2026-10-07T03:10:32.733890+00:00",
+        "http_date": "Wed, 07 Oct 2026 03:10:32 GMT",
+        "http_last_modified": null,
+        "etag": "\"ceac21238fe712f03c8d2c6a645473c40460beb0d31866b6535a565c86450cf4\"",
+        "headers_sha256": "9fb09c25147b0d3385e82bdb41474116862cb6a7bc6d1afdb5f09b9a27af38f2"
+      },
+      "prior_hash_match": true,
+      "repository_head": "6042c56b43b64c09fe5a32c64879e698f399beaf",
+      "file_last_commit": "3bfc47e4f53ab474cd7702cb81f831faf2f5846a",
+      "file_commit_time": "2026-09-26T03:27:13Z",
+      "web_url": "https://github.com/franciscouzo/square-packing/blob/master/n68.txt",
+      "new_web_copy_byte_identical": true
+    },
+    {
+      "file": "franciscouzo-n68-web-extraction.txt",
+      "sha256": "425ec02ce3b608649223d21b2e5e80cd1a53e9e7cfd48c3e4b1640b2e2d0b770",
+      "bytes": 4982,
+      "repository_head": "6042c56b43b64c09fe5a32c64879e698f399beaf",
+      "file_last_commit": "3bfc47e4f53ab474cd7702cb81f831faf2f5846a",
+      "file_commit_time": "2026-09-26T03:27:13Z",
+      "web_url": "https://github.com/franciscouzo/square-packing/blob/master/n68.txt",
+      "new_web_copy_byte_identical": true
+    },
+    {
+      "file": "refine_packing.cpp",
+      "sha256": "15de3dd94ac31302ef82605c50ace574d1999cbf733b612819184cdc1833aa30",
+      "bytes": 60181,
+      "url": "https://raw.githubusercontent.com/Davidebyzero/packing_squares_in_squares__tools/master/refine_packing.cpp",
+      "retrieval": "Web reader, all 1563 numbered source lines reconstructed with LF endings; no algorithm edits.",
+      "version": "Retrieved master text, content-addressed by SHA-256; immutable revision fetch unavailable.",
+      "companion_prior_head": "79f8a378d52e757d70f7cfb2c2f7a24a53da0204",
+      "build_header": "src/gmp.h supplies minimal installed GNU MP 64-bit ABI declarations."
+    }
+  ],
+  "access_limit": "Direct shell DNS/network unavailable and escalation disabled by workspace policy. Existing full downloads were reused where fresh web retrieval was unavailable. Release bytes and immutable Ellsworth source revision were not reauthenticated."
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "script": "verify_root",
+    "exit_code": 0,
+    "seconds": 0.6048549070110312,
+    "stdout": "{'valid': True, 'dimension': 153, 'radius': '1/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', 'residual_preconditioned_float': 4.975419685674028e-121, 'jacobian_defect_float': 3.163519510458388e-11, 'seconds': 0.5453669709968381}\n",
+    "stderr": ""
+  },
+  {
+    "script": "verify_elimination",
+    "exit_code": 0,
+    "seconds": 0.3397166579961777,
+    "stdout": "{'valid': True, 'dimension': 137, 'box_radius': '1/100000000000', 'uniform_defect_bound_float': 8.444150250088376e-10}\n",
+    "stderr": ""
+  },
+  {
+    "script": "verify_family_minimum",
+    "exit_code": 0,
+    "seconds": 1.0997156989906216,
+    "stdout": "{'valid': True, 'box_radius': '1/100000000000', 'minimum_signed_inverse_coefficient_float': 1.604038e-06, 'inverse_uncertainty_bound_float': 1.5305618200070556e-06}\n",
+    "stderr": ""
+  },
+  {
+    "script": "verify_fixed_angle",
+    "exit_code": 0,
+    "seconds": 0.6604111329943407,
+    "stdout": "{'valid': True, 'all_halfplanes_checked': 10200, 'dual_terms': 32, 'gap_float': 4.5803874681817515e-61, 'seconds': 0.6162743750028312}\n",
+    "stderr": ""
+  },
+  {
+    "script": "test_verifiers",
+    "exit_code": 0,
+    "seconds": 2.336062196001876,
+    "stdout": "",
+    "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 2.119s\n\nOK\n"
+  }
+]

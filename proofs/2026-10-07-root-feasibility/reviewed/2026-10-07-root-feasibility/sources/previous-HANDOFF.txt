@@ -1,0 +1,90 @@
+Square-packing publication refresh COMPLETE, 2026-10-07T23:22:36.083109+00:00
+
+Published using authenticated lollipoll account. No external operation remains blocked.
+n68 registration: https://github.com/jlevy/squares/issues/428 (open; review pending).
+Five-case request: https://github.com/jlevy/squares/issues/425 (open; only n105/n292 active).
+No register acceptance, human peer review, new arrangement or worldwide priority claimed.
+No unrestricted lower-bound change requested. No email, unrelated contact or optimization search.
+
+Exact n68 side:
+8.798795237218283902576680967021394083521019030227879263240370
+Fraction: 879879523721828390257668096702139408352101903022787926324037/10^59.
+Authoritative SHA256: 6d4f72debae83b5825e91f7b090e0cee08851ad7b85400343c0dee52f468dff9.
+Exact Daniel minus ours: 8798795237260591647898096977212073675963/10^59
+= 8.798795237260591647898096977212073675963e-20.
+Both direct released geometry checks passed all 2,278 pairs, containment and unit frames.
+36 manifest hashes match; analytic checks and seven tests pass. Full logs retained.
+Daniel n68 passed both released polygon/support checkers after exact centering; also the retained five-case support checker.
+Coarse upward shorthand 8.798795237218283903 is larger than Daniel: never request it as an improvement.
+The contact-system root is not certified against every packing inequality; the rational witness proves the bound.
+David issue #2 still has no public side/coordinates/comments, so comparison and priority remain unresolved.
+
+Five-case historical/superseded:
+n130 SQUISH exact 6701628168660175/562949953421312; 8,385 pairs.
+n263 newer SQUISH exact 9424018478849569/562949953421312; 34,453 pairs.
+  Source hash 8e32094d935b7445f98c889305ed8fd018f06c59f7d4bf8f7f0957a70a992e7c.
+  Ours minus SQUISH exactly 29609319780496598656674709139966634789451387/(16*10^45).
+n272 Daniel exact 2121013768221200063125669904449/125000000000000000000000000000; 36,856 pairs.
+Every superseding certificate passed the retained independent support-function implementation with Fraction arithmetic,
+zero tolerance, unit norms/orthogonality, containment and all unordered pairs; no broad-phase omissions.
+Exact source transform: (x,y,t) -> (x-S/2,y-S/2,t); then exact rational half-angle map.
+All retrieved Daniel rational certificates/candidate paths were checked; no claimed smaller source failed.
+n105/n292 remain smaller than the strongest retrieved exact sources by 1.0806077865428479601254726e-19 and
+1.75972493911608141407373443e-19 respectively. Original five witness receipts reused after hash identity checks.
+The current register n263 uses earlier SQUISH; pending #422 is smaller still. Register n272 still trails source #399.
+Final source head readbacks unchanged. New PR #427 concerns the same SQUISH nine-case intake; no acceptance inferred.
+
+Publication commits and preserved tags:
+certified-square-packing-68: 88db03820e264b339064a1a60c93abe9eeed5222
+https://github.com/lollipoll/certified-square-packing-68/commit/88db03820e264b339064a1a60c93abe9eeed5222
+Local checkout: /home/seth/square-packing-frontier/publication-refresh-20261007/certified-square-packing-68
+Preserved v1.1.0 -> fded686668e29258dad2eb29d0482fa3fd51bd6b
+couzo-five-exact-certificates: 1c12d441b928b043071df696064789fc4d767d07
+https://github.com/lollipoll/couzo-five-exact-certificates/commit/1c12d441b928b043071df696064789fc4d767d07
+Local checkout: /home/seth/square-packing-frontier/publication-refresh-20261007/couzo-five-exact-certificates
+Preserved v1.0.0 -> bc389ddf7d65277cd19a9b08fb285d86346d6806
+
+Both checkouts clean. Only original-file edits: n68 README; five-case README and PUBLICATION_STATUS.json.
+New publication folders contain snapshots, exact adapters and receipts only. Released n68 refinement-v1.1.0 and five-case
+reviewed folders match their tags byte for byte. All attached asset IDs, sizes, digests and update times match before/after.
+Five v1.0.0 release notes corrected; original notes/body retained verbatim in historical details. No #425 comment added.
+Original sibling five-case checkout /tmp/couzo-publication-20261007/couzo-five-exact-certificates was identified by remote
+and left at its original commit. No existing n68 publication checkout was found under the inspected /home/seth and /tmp
+locations; a separate checkout was fetched into this task directory. Research checkpoints and original handoffs untouched.
+
+Full source pins and retrieval-completion times:
+jlevy/squares 2af487e7cfe85d84b2a67fa984e2d36a77548d97 retrieved 2026-10-07T23:13:08.326109+00:00
+evand/square-packing 6069054020e1c78a395aa90a689332b4a1e6e2cd retrieved 2026-10-07T23:11:57.779722+00:00
+franciscouzo/square-packing 6042c56b43b64c09fe5a32c64879e698f399beaf retrieved 2026-10-07T23:11:53.850138+00:00
+itsnaka/squish-certs e63e4e52b1728b6671b2f263c5e02a4aa79a39d3 retrieved 2026-10-07T23:11:54.720402+00:00
+
+source-manifest.json holds immutable URLs and SHA256 for each source.
+heads-api.json and receipts/readback-times.json record API observations. Sources came from normal gh api/git fetch;
+plain clone and redirected shell API attempts failed connectivity. No denied escalation was retried or bypassed.
+
+Reproduction (from this directory; normal Python, assertions enabled, no -O/-OO):
+  cd certified-square-packing-68/refinement-v1.1.0
+  python3 check_hashes.py
+  python3 -B verify.py n68.json --n 68 --reference-side 8.798795237221
+  python3 -B independent_support_check.py n68.json --n 68
+  python3 -B verify_analytic.py
+  cd ..
+  python3 -B publication/20261007/check_comparison.py
+
+From the five-case checkout root:
+  python3 -B publication/refresh-20261007/check_sources.py --support-checker reviewed/code/review_support.py --output /tmp/couzo-source-replays.json
+Optional full unchanged witness replay:
+  cd reviewed
+  python3 verify.py
+  python3 code/review_support.py
+
+Published URLs:
+https://github.com/lollipoll/certified-square-packing-68
+https://github.com/lollipoll/certified-square-packing-68/releases/tag/v1.1.0
+https://github.com/lollipoll/couzo-five-exact-certificates
+https://github.com/lollipoll/couzo-five-exact-certificates/releases/tag/v1.0.0
+
+Final local receipt: receipts/PUBLICATION_COMPLETE.json.
+Exact comparisons: comparisons.json. Source replay: receipts/source-replays.json.
+Ready-to-post texts retained under drafts/; they are ALREADY POSTED. Do not create a duplicate or blindly rerun publication.
+No action remains except awaiting maintainer review; keep any future status update dated and preserve these comparisons.

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "v1.1.0",
+    "zipball_url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/zipball/refs/tags/v1.1.0",
+    "tarball_url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/tarball/refs/tags/v1.1.0",
+    "commit": {
+      "sha": "fded686668e29258dad2eb29d0482fa3fd51bd6b",
+      "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/commits/fded686668e29258dad2eb29d0482fa3fd51bd6b"
+    },
+    "node_id": "REF_kwDOU--LJLByZWZzL3RhZ3MvdjEuMS4w"
+  },
+  {
+    "name": "v1.0.0",
+    "zipball_url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/zipball/refs/tags/v1.0.0",
+    "tarball_url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/tarball/refs/tags/v1.0.0",
+    "commit": {
+      "sha": "61e16dba35621570f6e25dd3cf074cc85c86ec20",
+      "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/commits/61e16dba35621570f6e25dd3cf074cc85c86ec20"
+    },
+    "node_id": "REF_kwDOU--LJLByZWZzL3RhZ3MvdjEuMC4w"
+  }
+]

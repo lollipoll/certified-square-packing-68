@@ -1,0 +1,152 @@
+[
+  {
+    "name": "releases-before.json",
+    "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/releases?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.108Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "tags-before.json",
+    "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/tags?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.008Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "v1.1.0-tag.json",
+    "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/git/ref/tags/v1.1.0",
+    "retrieved_at": "2026-10-08T01:53:02.988Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "public-main-before.json",
+    "url": "https://api.github.com/repos/lollipoll/certified-square-packing-68/commits/main",
+    "retrieved_at": "2026-10-08T01:53:03.157Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "jlevy-428.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/428",
+    "retrieved_at": "2026-10-08T01:53:02.563Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "jlevy-428-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/428/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.083Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "jlevy-419.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/419",
+    "retrieved_at": "2026-10-08T01:53:03.058Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "jlevy-419-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/419/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.034Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "davide-4.json",
+    "url": "https://api.github.com/repos/Davidebyzero/packing_squares_in_squares__tools/issues/4",
+    "retrieved_at": "2026-10-08T01:53:03.047Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "davide-4-comments.json",
+    "url": "https://api.github.com/repos/Davidebyzero/packing_squares_in_squares__tools/issues/4/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.070Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "davide-2.json",
+    "url": "https://api.github.com/repos/Davidebyzero/packing_squares_in_squares__tools/issues/2",
+    "retrieved_at": "2026-10-08T01:53:03.117Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "davide-2-comments.json",
+    "url": "https://api.github.com/repos/Davidebyzero/packing_squares_in_squares__tools/issues/2/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.087Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "pending-n68.json",
+    "url": "https://api.github.com/search/issues?q=repo%3Ajlevy%2Fsquares+is%3Aissue+is%3Aopen+68&per_page=100",
+    "retrieved_at": "2026-10-08T01:53:03.117Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "register-head.json",
+    "url": "https://api.github.com/repos/jlevy/squares/commits/main",
+    "retrieved_at": "2026-10-08T01:53:03.054Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "daniel-head.json",
+    "url": "https://api.github.com/repos/evand/square-packing/commits/main",
+    "retrieved_at": "2026-10-08T01:53:03.047Z",
+    "format": "JSON normalized from successful gh api read"
+  },
+  {
+    "name": "register-n068.md.api.json",
+    "url": "https://api.github.com/repos/jlevy/squares/contents/packing/frontier/n-068.md?ref=84881f214086bf5b8ce83a714c4fda6d7be7b2d1",
+    "retrieved_at": "2026-10-08T01:53:23.384Z"
+  },
+  {
+    "name": "daniel-EXACT_FORMS.md.api.json",
+    "url": "https://api.github.com/repos/evand/square-packing/contents/search/exact/EXACT_FORMS.md?ref=6069054020e1c78a395aa90a689332b4a1e6e2cd",
+    "retrieved_at": "2026-10-08T01:53:23.385Z"
+  },
+  {
+    "name": "daniel-n68.cert.api.json",
+    "url": "https://api.github.com/repos/evand/square-packing/contents/search/exact/batch/certs/n-68.cert?ref=6069054020e1c78a395aa90a689332b4a1e6e2cd",
+    "retrieved_at": "2026-10-08T01:53:23.385Z"
+  },
+  {
+    "name": "daniel-readme.md.api.json",
+    "url": "https://api.github.com/repos/evand/square-packing/contents/search/exact/README.md?ref=6069054020e1c78a395aa90a689332b4a1e6e2cd",
+    "retrieved_at": "2026-10-08T01:53:23.385Z"
+  },
+  {
+    "name": "jlevy-375.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/375",
+    "retrieved_at": "2026-10-08T01:53:45.124Z"
+  },
+  {
+    "name": "jlevy-375-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/375/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:45.160Z"
+  },
+  {
+    "name": "jlevy-399.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/399",
+    "retrieved_at": "2026-10-08T01:53:45.159Z"
+  },
+  {
+    "name": "jlevy-399-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/399/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:45.134Z"
+  },
+  {
+    "name": "jlevy-420.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/420",
+    "retrieved_at": "2026-10-08T01:53:45.178Z"
+  },
+  {
+    "name": "jlevy-420-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/420/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:45.137Z"
+  },
+  {
+    "name": "jlevy-422.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/422",
+    "retrieved_at": "2026-10-08T01:53:45.155Z"
+  },
+  {
+    "name": "jlevy-422-comments.json",
+    "url": "https://api.github.com/repos/jlevy/squares/issues/422/comments?per_page=100",
+    "retrieved_at": "2026-10-08T01:53:45.159Z"
+  }
+]

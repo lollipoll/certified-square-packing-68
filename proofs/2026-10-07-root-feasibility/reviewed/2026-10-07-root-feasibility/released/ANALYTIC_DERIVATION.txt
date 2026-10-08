@@ -1,0 +1,152 @@
+Analytic contact reduction and proof scopes
+
+The square labels are 0,...,67 in the published certificate's ordering.
+The final common-orientation groups, verified as feasible in the rational
+certificate after unconstrained numerical fitting, are:
+
+ A = {8,14,17,21,23,28,30,33,36,38,42,45,47,52,55}
+ B = {20,25,29,31,35,37,39,44,46,50,53,59}
+ C = {12}, D = {13}, E = {16}, F = {22}, G = {34}, H = {43}.
+
+A and B have distinct angles. The reduction imposes these within-group
+equalities as the definition of a restricted geometric family; it does not
+assert that every neighboring optimal packing must have them. Neither global
+reflection nor half-turn symmetry is imposed or supported by the coordinates.
+
+Let X_i=(x_i,y_i), u_i=(c_i,s_i), v_i=(-s_i,c_i), and
+  P_i(a,b) = X_i + (a u_i + b v_i)/2,   a,b in {-1,+1}.
+For each group j impose c_j^2+s_j^2=1. Other orientations are exact rational
+unit directions defined by the fixed half-angle parameters in system.json.
+For an edge of square k with outward normal n=epsilon*u_k or epsilon*v_k,
+a contact with vertex P_i(a,b) has equation
+  n dot (P_i(a,b)-X_k) - 1/2 = 0.
+The corresponding supporting half-plane requires the expression >= 0.
+For a wall with coordinate d and sign epsilon, the equation is
+  epsilon*P_i(a,b)_d - L/2 = 0,
+and feasibility requires this expression <= 0.
+Every polynomial is degree at most two, with rational coefficients.
+
+The fully specified exact polynomial system is results/reduced/system.json:
+153 variables ordered x[68], y[68], L, c_A,s_A,...,c_H,s_H. It preserves all
+proposed equations separately from the chosen independent basis. Twenty-two
+rational center-coordinate gauges fix sliding freedoms. They are explicitly
+listed as gauges, not presented as physical contacts.
+
+For fixed eight orientations, the 137 selected center/side rows have the form
+  A(t) z + b(t) = 0,
+where z=(x[68],y[68],L), c_j=(1-t_j^2)/(1+t_j^2), and
+s_j=2*t_j/(1+t_j^2). The file's linear_rows identify these rows unambiguously.
+An exact preconditioner check bounds the inverse defect below 8.45e-10 throughout the radius-10^-11 box (elimination_verification.json), so this elimination is nonsingular there. In that neighborhood, z=-A(t)^(-1)b(t). Substitution into the
+remaining eight contact rows gives
+  R_k(t) = B_k(t)[-A(t)^(-1)b(t)] + d_k(t) = 0,  k=1,...,8.
+These are eight rational equations in eight variables. Multiplying their
+numerators by the nonzero denominators gives an exact algebraic description.
+The determinant/inverse formula, source rows, and rational coefficients are
+provided instead of an enormous expanded eliminant. No assertion of a
+minimal polynomial's degree is made.
+
+The eight closure rows selected in this reduction are:
+  vertex 50 (+1,-1) on square 53's +u edge;
+  vertex 14 (-1,-1) on square 8's +u edge;
+  vertex 37 (+1,+1) on square 35's +u edge;
+  vertex 13 (+1,+1) on square 17's -u edge;
+  vertex 12 (+1,-1) on square 20's -u edge;
+  vertex 56 (-1,-1) on the bottom wall;
+  vertex 22 (+1,+1) on square 28's -u edge;
+  vertex 38 (+1,+1) on square 43's -v edge.
+Other basis choices describe the same tested contact branch but need not be
+suitable for the particular local lower-bound proof below.
+
+Increasing-precision solutions give
+  L = 8.798795237218283902576680967021394083521019030227879263240369541961...
+The 50-, 100-, and 180-digit solves and all omitted-equation residuals are
+retained. Source-derived Kingbird and published continuations independently
+recover this side to more than 110 decimal places; this is numerical agreement,
+separate from the enclosure proof.
+
+Exact root enclosure
+
+Let F be the chosen square polynomial system, x the rational 120-place center,
+R a rationalized approximate inverse, and r=10^-100. The verifier evaluates,
+using Fraction throughout,
+  beta = ||R F(x)||_infinity,
+  delta = ||I - R J(x)||_infinity,
+  M = ||R||_infinity,
+  H >= max_i sum_{j,k} |d^2 F_i/(dx_j dx_k)|.
+All second derivatives are constant. It checks
+  q = delta + M H r < 1,
+  beta + q r < r.
+The map y -> y-R F(y) is then a contraction from the box into itself. Because
+R J is invertible throughout it, its unique fixed point is a unique zero of F.
+Measured rigorous bounds are approximately beta=4.97542e-121 and
+delta=3.16352e-11. The exact fractions, center, inverse, and box are saved in
+root_witness.json and root_verification.json. The side interval is the center's
+L coordinate plus/minus 10^-100. This does not certify every inactive packing
+inequality at the unrounded root. It also does not imply optimality.
+
+Restricted local lower bound
+
+Hold the first 137 rows and eight circles equal to zero. Orient each of the
+last eight rows so that g_k>=0 is feasible (the bottom-wall row changes sign).
+For quadratic F the exact identity
+  F(y)-F(y*) = J((y+y*)/2)(y-y*)
+holds. If both points are in the radius-rho box, an exact inverse estimate is
+  ||J(midpoint)^(-1)-R|| <= delta_rho/(1-delta_rho) * M,
+  delta_rho = delta + M H rho.
+At rho=10^-11 the last eight sign-corrected entries in row L of the inverse
+are all positive: the smallest center value is 1.604038e-6 and the uniform
+uncertainty is less than 1.530562e-6. Therefore
+  L(y)-L(y*) = sum_k positive_coefficient_k * g_k(y) >= 0.
+Equality forces all eight gaps to zero and hence y=y*, by invertibility.
+This proves a unique minimum of the specified contact relaxation in that box,
+and a lower bound for actual packings satisfying its held equalities.
+The equality constraints, 22 gauges, common angles, small box, and fixed other
+orientations are essential restrictions. Attainment as an exact algebraic
+68-square packing is not asserted, and opening the held contacts is unproved.
+
+Fixed-orientation minimum enclosure
+
+For the final rational orientation parameters, choose one directed supporting
+edge for each of the 2,278 pairs. Require all four vertices of the other square
+to lie in its outer half-plane; add every vertex/wall inequality. This produces
+10,200 affine inequalities in the 136 center coordinates and L, of the form
+  a_r dot z + b_r >= 0.
+The exact nonnegative dual weights satisfy
+  sum_r lambda_r a_r = e_L.
+Consequently every packing in this precisely specified convex family has
+  L >= -sum_r lambda_r b_r.
+Only 32 nonzero weights are needed. The final rational certificate satisfies
+all 10,200 inequalities, so the actual family minimum lies between this exact
+lower bound and its certified side. Their difference is less than 4.59e-61.
+This global-within-the-family statement allows all translations but fixes all
+angles and the pairwise supporting-edge choices. It excludes no packing using
+different orientations or different separating choices.
+
+Exact finite export and independent feasibility
+
+Centers are rounded to denominator 10^80 and multiplied by 1+10^-70.
+Half-angle parameters are rounded to denominator 10^80. These rational t's
+produce exactly orthogonal, exactly unit-length directions. The enclosing side
+is rounded upward to 60 decimals after reserving 10^-68 extra space. The
+resulting geometry is verified directly, so the safety of these heuristic
+rounding choices is not assumed. Both exact verifiers reject any negative gap.
+All 68 squares and all 2,278 pairs pass. The certified side is approximately
+4.58039e-61 above the enclosed contact limit.
+
+Movements and contact changes
+
+For a proposed single-square translation delta*d with fixed angles, every
+chosen half-plane inequality is affine in delta. Intersecting their exact
+rational bounds gives a certified interval for the entire motion, including
+all intermediate positions. results/exact_motions.json records the intervals
+for 21 squares. The square-54 example in moved54_exact.json is separately
+verified. These are finite motions, not just Jacobian null vectors.
+
+The main contact switch is quantified by the two possible normals of the
+13/16 pair. At the earlier branch the edge owned by 13 is active and the
+alternative has about -2.77e-8 projected clearance. At the improved branch the
+edge owned by 16 is active and the old axis has about -3.40e-9 clearance. A
+negative gap on one axis alone does not mean overlap: SAT needs one separating
+axis. Square 13 also reaches square 22 on the improved branch. The saved
+continuations explicitly change these supporting choices instead of keeping
+the earlier contact system fixed.

@@ -1,6 +1,20 @@
 # A certified refinement of the 68-unit-square packing
 
-## Latest refinement: v1.1.0
+## Latest result: v1.2.0 — exact algebraic root feasibility
+
+**Update, 7 October 2026 (America/Chicago; 8 October UTC): s(68) ≤ L\*.** The previously missing all-pairs feasibility obligation for the enclosed algebraic root is now proved. L\* is coordinate 136 (zero-based) of the unique zero of the specified 153-equation rational polynomial system in its original radius-10⁻¹⁰⁰ box. Its approximate decimal begins `8.798795237218283902576680967021394083521019030227879263240369541961...`; the system and box, identified by hashes in the [theorem note](proofs/2026-10-07-root-feasibility/README.md), define it exactly.
+
+The [new supplementary release](https://github.com/lollipoll/certified-square-packing-68/releases/tag/v1.2.0) preserves v1.1.0 and supplies the unchanged proof archive, computational review, fresh support-function check and receipts. It proves all 68 unit frames, containment and all 2,278 pairs: 255 exact-zero and 9,945 strictly positive predicates, all 437 implied equations, and 20 rejection controls. The root side is approximately 4.58039 × 10⁻⁶¹ below the unchanged rational certificate.
+
+One command from this repository, using the Python standard library with assertions enabled:
+
+```sh
+python3 -B proofs/2026-10-07-root-feasibility/reproduce.py
+```
+
+Attainment is also established within the earlier fully restricted contact family; every restriction and the same-root binding are stated in the theorem note. There is no unrestricted local/global optimality claim or lower-bound update. These computational checks are not independent human peer review or proof-assistant formalization. Seth Rehwaldt's work used OpenAI Codex assistance; Francisco Couzo's earlier tighter branch, Jake Loyd and the preceding contributors retain their credit. Evan Daniel's related algebraic work is acknowledged; this multivariate specification does not supply his minimal-polynomial format. No new arrangement or worldwide priority is claimed. Review remains pending on [#428](https://github.com/jlevy/squares/issues/428) and [#4](https://github.com/Davidebyzero/packing_squares_in_squares__tools/issues/4).
+
+## Preserved rational refinement: v1.1.0
 
 An updated certificate proves **s(68) ≤ 8.798795237218283902576680967021394083521019030227879263240370** (the full exact terminating decimal). It improves the v1.0.0 side by approximately 2.716097423319033 × 10⁻¹². See the [certificate and verification instructions](refinement-v1.1.0/README.md) and [v1.1.0 release](https://github.com/lollipoll/certified-square-packing-68/releases/tag/v1.1.0).
 

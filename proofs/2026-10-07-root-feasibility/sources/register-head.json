@@ -1,0 +1,106 @@
+{
+  "sha": "84881f214086bf5b8ce83a714c4fda6d7be7b2d1",
+  "node_id": "C_kwDOTXp6xdoAKDg0ODgxZjIxNDA4NmJmNWI4Y2U4M2E3MTRjNGZkYTZkN2JlN2IyZDE",
+  "commit": {
+    "author": {
+      "name": "Joshua Levy",
+      "email": "joshua@cal.berkeley.edu",
+      "date": "2026-10-07T23:21:50Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-07T23:21:50Z"
+    },
+    "message": "Merge pull request #426 from jlevy/codex/close-squish-401-publication\n\ndocs: record verified publication and closure of the eighteen SQUISH imports",
+    "tree": {
+      "sha": "870ad2407d8ad4c91457c2a6c229577190c987a3",
+      "url": "https://api.github.com/repos/jlevy/squares/git/trees/870ad2407d8ad4c91457c2a6c229577190c987a3"
+    },
+    "url": "https://api.github.com/repos/jlevy/squares/git/commits/84881f214086bf5b8ce83a714c4fda6d7be7b2d1",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqxtQOCRC1aQ7uu5UhlAAAIlwQAALhD6q0Us2lcJcibKQNjc9R\n7w4bVfxN3PfMTsd43Fdm39OWQusxyvbxzWh9Neeb6a0nEAe39kdYVXF6BRi/lFOu\n7aQ7GPOeKPPFGcVziteH9xUQo3JnUEv8sqWBJ16rLHzl5shp4eUnECmHOLjgN7Bw\nMn0SVVVw2QJOwnAAdH3qaSdiRzn2GRcCiX4SfQN7hMoX/V06zdzzGGRQLAQjqN3G\nTM82zgU1nEg1i7ghp7b1g7CLLqT9sQ6Fhbf9iYASzrVOR2wVGK+eqjf44epnCSwG\nbbHPvYO0ZeM5vlj/OSTOR66eCgKbCHzO0ipnwy86PAJSqMFzm8w20pAN3MwxHlFN\nSFv76sGBpkW2yyAN8D19iYIi70M7K+7rQQJjFQdAonPyK3L7fawpQU7gNxIhssqK\noACAw6oNJpeenBCyLsauPn50joSh+lhw7PraGBicY9+pMu/J90EEvEB0d7k6SRRD\nMc1ErsNmren6zqW6xfAdJyxoRjXQwKKv5N9l47BT/3u0+o40S6hsqh89FS5i3vwj\n3U0Ud4h7sVrvAS6TOTB7g7BV2PYiJDRAP/c6LmyLH3W898WYVL3sgVxfPYA/HKRX\nf1IUE7M5NlsQhMESa5m+x/9TYY1AuGDEfBlKRjmxXrE6YaWYWQa2FD9cyiqvf6xl\ni9sZsqgmDPsVxR4yAt02\n=4wsb\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 870ad2407d8ad4c91457c2a6c229577190c987a3\nparent 2af487e7cfe85d84b2a67fa984e2d36a77548d97\nparent 9c2266464ee2c0c729fbfc3a4c8397dcc80445ad\nauthor Joshua Levy <joshua@cal.berkeley.edu> 1791415310 -0700\ncommitter GitHub <noreply@github.com> 1791415310 -0700\n\nMerge pull request #426 from jlevy/codex/close-squish-401-publication\n\ndocs: record verified publication and closure of the eighteen SQUISH imports",
+      "verified_at": "2026-10-07T23:21:51Z"
+    }
+  },
+  "url": "https://api.github.com/repos/jlevy/squares/commits/84881f214086bf5b8ce83a714c4fda6d7be7b2d1",
+  "html_url": "https://github.com/jlevy/squares/commit/84881f214086bf5b8ce83a714c4fda6d7be7b2d1",
+  "comments_url": "https://api.github.com/repos/jlevy/squares/commits/84881f214086bf5b8ce83a714c4fda6d7be7b2d1/comments",
+  "author": {
+    "login": "jlevy",
+    "id": 2058167,
+    "node_id": "MDQ6VXNlcjIwNTgxNjc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2058167?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jlevy",
+    "html_url": "https://github.com/jlevy",
+    "followers_url": "https://api.github.com/users/jlevy/followers",
+    "following_url": "https://api.github.com/users/jlevy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jlevy/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jlevy/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jlevy/subscriptions",
+    "organizations_url": "https://api.github.com/users/jlevy/orgs",
+    "repos_url": "https://api.github.com/users/jlevy/repos",
+    "events_url": "https://api.github.com/users/jlevy/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jlevy/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "2af487e7cfe85d84b2a67fa984e2d36a77548d97",
+      "url": "https://api.github.com/repos/jlevy/squares/commits/2af487e7cfe85d84b2a67fa984e2d36a77548d97",
+      "html_url": "https://github.com/jlevy/squares/commit/2af487e7cfe85d84b2a67fa984e2d36a77548d97"
+    },
+    {
+      "sha": "9c2266464ee2c0c729fbfc3a4c8397dcc80445ad",
+      "url": "https://api.github.com/repos/jlevy/squares/commits/9c2266464ee2c0c729fbfc3a4c8397dcc80445ad",
+      "html_url": "https://github.com/jlevy/squares/commit/9c2266464ee2c0c729fbfc3a4c8397dcc80445ad"
+    }
+  ],
+  "stats": {
+    "total": 127,
+    "additions": 94,
+    "deletions": 33
+  },
+  "files": [
+    {
+      "sha": "e9faa2ab616a02d01302ac38ef4b0a57d9ec0499",
+      "filename": "packing/campaign/result-requests.yaml",
+      "status": "modified",
+      "additions": 94,
+      "deletions": 33,
+      "changes": 127,
+      "blob_url": "https://github.com/jlevy/squares/blob/84881f214086bf5b8ce83a714c4fda6d7be7b2d1/packing%2Fcampaign%2Fresult-requests.yaml",
+      "raw_url": "https://github.com/jlevy/squares/raw/84881f214086bf5b8ce83a714c4fda6d7be7b2d1/packing%2Fcampaign%2Fresult-requests.yaml",
+      "contents_url": "https://api.github.com/repos/jlevy/squares/contents/packing%2Fcampaign%2Fresult-requests.yaml?ref=84881f214086bf5b8ce83a714c4fda6d7be7b2d1",
+      "patch": "@@ -1874,26 +1874,26 @@ issues:\n     title: '18 new packings below record for n = 108–303: registration request (updated 2026-10-07)'\n     author: itsnaka\n     opened: '2026-10-07'\n-    state: open\n+    state: closed\n     kind: result-report\n     triage: done\n-    summary: The original ten packings and n153 supplement retain complete replay and accepted reviews.\n-      T-115 confirms the twelve changed geometries from the first update through complete retained\n-      dual replay and two scoped AI reviews. Its confirmation publication remains a draft layer until\n-      merge and deployment; the published main reply still describes the first twelve updates as reported.\n-      The n153 update source is identical to its retained original certificate. Per-case Couzo/SQUISH\n-      seed credit remains attributed; optimality is not established.\n-    read_through: '2026-10-07T21:23:34Z'\n+    summary: The original ten packings, n153 supplement and twelve changed first-update geometries are\n+      registered and confirmed at V3/C3 in T-113, T-114 and T-115. Formal stacks 417 and 424 have merged;\n+      the matching main deployment passed independent and hosted live verification, and the final author\n+      reply closes the eighteen-count request. The n153 update is identical to its retained original\n+      certificate and adds provenance only. Earlier geometries, evidence and finder/seed credit remain\n+      historical; no optimality is established.\n+    read_through: '2026-10-07T22:54:51Z'\n     results:\n     - key: ten-new-packings\n       claim: Nate Chaoweeraprasit (itsnaka), using SQUISH, reports s(n) <= S_n for n = 108, 126, 129,\n         130, 154, 155, 180, 209, 238 and 303 in the ten-packing release submitted on jlevy/squares#401\n-        on 7 October 2026. Each S_n is the exact rational side in the retained packing facts, from\n-        about 0.0004126 to 0.0067047 below the earlier reported upper bound here. Each certificate\n-        supplies rational centres and rational half-angle parameters for closed unit squares in the\n-        rational container. The claim establishes only upper bounds, with no optimality or rigidity\n-        conclusion. The author credits David Ellsworth’s records and tools and states human-directed\n-        Claude Opus 5.5 assistance.\n+        on 7 October 2026. Each S_n is the exact rational side in the retained packing facts, from about\n+        0.0004126 to 0.0067047 below the earlier reported upper bound here. Each certificate supplies\n+        rational centres and rational half-angle parameters for closed unit squares in the rational\n+        container. The claim establishes only upper bounds, with no optimality or rigidity conclusion.\n+        The author credits David Ellsworth’s records and tools and states human-directed Claude Opus\n+        5.5 assistance.\n       source: body\n       register:\n       - T-113\n@@ -1903,11 +1903,11 @@ issues:\n       bead: think-mc4u\n     - key: n153-supplement\n       claim: Nate Chaoweeraprasit (itsnaka), using SQUISH, reports s(153) <= 7250614903299225/562949953421312,\n-        about 12.8796793733329640, in the supplement to jlevy/squares#401 on 7 October 2026, about\n-        0.0019874 below the earlier reported upper bound here. Each certificate supplies rational\n-        centres and rational half-angle parameters for closed unit squares in the rational container.\n-        The claim establishes only upper bounds, with no optimality or rigidity conclusion. The author\n-        credits David Ellsworth’s records and tools and states human-directed Claude Opus 5.5 assistance.\n+        about 12.8796793733329640, in the supplement to jlevy/squares#401 on 7 October 2026, about 0.0019874\n+        below the earlier reported upper bound here. Each certificate supplies rational centres and\n+        rational half-angle parameters for closed unit squares in the rational container. The claim\n+        establishes only upper bounds, with no optimality or rigidity conclusion. The author credits\n+        David Ellsworth’s records and tools and states human-directed Claude Opus 5.5 assistance.\n       source: https://github.com/jlevy/squares/issues/401#issuecomment-6031977107\n       register:\n       - T-114\n@@ -1919,8 +1919,8 @@ issues:\n       claim: Nate Chaoweeraprasit (itsnaka), using SQUISH, reports rational packing upper bounds for\n         n = 123, 126, 129, 154, 155, 179, 208, 237, 238, 239, 258, 263. Seven counts are new to the\n         submission and five have smaller certificates than the original release. Exact rational sides\n-        and complete rational half-angle rosters are retained in the revision-specific acquisition\n-        packet. The n153 certificate is identical to the earlier retained attachment and is an evidence/provenance\n+        and complete rational half-angle rosters are retained in the revision-specific acquisition packet.\n+        The n153 certificate is identical to the earlier retained attachment and is an evidence/provenance\n         update only. These are source-reported feasible upper bounds, with no optimality or rigidity\n         claim.\n       source: https://github.com/jlevy/squares/issues/401#issuecomment-6043191866\n@@ -1938,6 +1938,17 @@ issues:\n     - think-gsno\n     answer_bead: think-crhh\n     replies:\n+    - url: https://github.com/jlevy/squares/issues/401#issuecomment-6044898026\n+      date: '2026-10-07'\n+      by: jlevy\n+      kind: acknowledgement\n+      reported:\n+      - result: ten-new-packings\n+      - result: n153-supplement\n+      - result: update-twelve-new-bounds\n+      outdated:\n+      - The original PRs415/416 had not merged, and the first update was not registered on main. Both\n+        formal import/confirmation stacks have now merged.\n     - url: https://github.com/jlevy/squares/issues/401#issuecomment-6046723077\n       date: '2026-10-07'\n       by: jlevy\n@@ -1954,16 +1965,66 @@ issues:\n       - result: update-twelve-new-bounds\n         verification: V0\n         confirmation: C0\n+      outdated:\n+      - The first-update PRs421/423 were drafts at V0/C0 on main while final integration checks remained\n+        pending. Both are now merged, with T-115 confirmed at V3/C3; the final reply must report the\n+        matching deployment check.\n+    - url: https://github.com/jlevy/squares/issues/401#issuecomment-6048513671\n+      date: '2026-10-07'\n+      by: jlevy\n+      kind: final\n+      reported:\n+      - result: ten-new-packings\n+        id: T-113\n+        verification: V3\n+        confirmation: C3\n+        status: confirmed\n+      - result: ten-new-packings\n+        id: E-squish-ten-packings-2026-10-07-report\n+        status: reviewed\n+      - result: ten-new-packings\n+        id: E-squish-ten-packings-2026-10-07-exact-replay\n+        status: confirmed\n+      - result: n153-supplement\n+        id: T-114\n+        verification: V3\n+        confirmation: C3\n+        status: confirmed\n+      - result: n153-supplement\n+        id: E-squish-n153-2026-10-07-report\n+        status: reviewed\n+      - result: n153-supplement\n+        id: E-squish-n153-2026-10-07-exact-replay\n+        status: confirmed\n+      - result: update-twelve-new-bounds\n+        id: T-115\n+        verification: V3\n+        confirmation: C3\n+        status: confirmed\n+      - result: update-twelve-new-bounds\n+        id: E-squish-update-2026-10-07-report\n+        status: recorded\n+      - result: update-twelve-new-bounds\n+        id: E-squish-update-2026-10-07-exact-replay\n+        status: confirmed\n+      corrects:\n+      - https://github.com/jlevy/squares/issues/401#issuecomment-6044898026\n+      - https://github.com/jlevy/squares/issues/401#issuecomment-6046723077\n     close_when: All eighteen current counts have complete replay and appropriate scoped review recorded,\n-      and the confirmation layer has actually merged and deployed. An accurate final author reply\n-      must then identify the entries and assurance published on main. The progress reply is historical;\n-      a draft confirmation record does not close this request.\n-    notes: The author moved the next nine certificates to issue 422 in https://github.com/jlevy/squares/issues/401#issuecomment-6047131959\n-      (created 7 October 2026 at 21:23:34 UTC). That later source revision is outside this eighteen-count\n-      first-update request and T-115. The progress reply https://github.com/jlevy/squares/issues/401#issuecomment-6046723077,\n-      edited at 22:04:36 UTC, records the eleven original bounds published on main and formal\n-      stack 424 with reported draft 421 and confirmation draft 423. The older-certificate\n-      citation repair passed hosted CI; a subsequent browser repair passed all twenty affected\n-      browser tests. The lower gate and upper confirmation integration repairs remain pending.\n-      The separate 422 queue acknowledgement is https://github.com/jlevy/squares/issues/422#issuecomment-6047406306.\n-      A final accurate author reply remains due after this confirmation layer is merged and deployed.\n+      and the confirmation layer has actually merged and deployed. An accurate final author reply must\n+      then identify the entries and assurance published on main. The progress reply is historical; a\n+      draft confirmation record does not close this request.\n+    notes: The author moved the next nine certificates to issue422 in https://github.com/jlevy/squares/issues/401#issuecomment-6047131959,\n+      created2026-10-07T21:23:34Z. They remain a separate request and source revision. Both reviewed\n+      first-update PRs421/423 merged atomically through formal stack424 into main2af487e7cfe85d84b2a67fa984e2d36a77548d97\n+      at22:44UTC. Each final hosted head passed30 checks with26 documented inapplicable skips. The upper\n+      actual209-file required push passed62steps879.49s, exit0, including all34 previously failing hosted\n+      tests. The lower scoped61-step gate passed; its unavailable outer-wrapper exit remains unknown.\n+      Historical failed runs and earlier progress replies remain preserved. The separate422 acknowledgement\n+      is https://github.com/jlevy/squares/issues/422#issuecomment-6047406306. Matching Pages deployment6922702889/run37698041439\n+      succeeded on main2af487e7. Both independent and hosted full published-site checks passed1234/1234\n+      with strict TLS. Separate live bindings passed149/149 for all18cases/all36drawings/final T113/T114/T115\n+      and sourcecredit/history; desktop/mobile layouts38/38 and representative visual inspection passed.\n+      Final reply https://github.com/jlevy/squares/issues/401#issuecomment-6048513671 was posted before\n+      manual issue closure; issue422 remains separate and open.\n+    closed: '2026-10-07'"
+    }
+  ]
+}

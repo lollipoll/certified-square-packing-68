@@ -1,0 +1,39 @@
+{
+  "valid": true,
+  "checked_at": "2026-10-08T01:58:53.157908+00:00",
+  "base_commit": "88db03820e264b339064a1a60c93abe9eeed5222",
+  "v110_tag": "fded686668e29258dad2eb29d0482fa3fd51bd6b",
+  "old_tracked_files_preserved_except_readme": 73,
+  "old_assets_downloaded_and_verified": [
+    {
+      "name": "n68-refinement-campaign-20261007.tar.gz",
+      "asset_id": 618956362,
+      "sha256": "36b6e718ea8f18bcd1215ddcc53f0af2df1681fdae86308348f7b460a42177b4",
+      "size": 4980728,
+      "url": "https://github.com/lollipoll/certified-square-packing-68/releases/download/v1.1.0/n68-refinement-campaign-20261007.tar.gz"
+    },
+    {
+      "name": "n68-refinement-v1.1.0.zip",
+      "asset_id": 618956463,
+      "sha256": "1f9fd037517d9f5147a4eb23d25a06d96168d985fd4a65399c98cdedaba38e3a",
+      "size": 393427,
+      "url": "https://github.com/lollipoll/certified-square-packing-68/releases/download/v1.1.0/n68-refinement-v1.1.0.zip"
+    },
+    {
+      "name": "n68.json",
+      "asset_id": 618956348,
+      "sha256": "6d4f72debae83b5825e91f7b090e0cee08851ad7b85400343c0dee52f468dff9",
+      "size": 49162,
+      "url": "https://github.com/lollipoll/certified-square-packing-68/releases/download/v1.1.0/n68.json"
+    },
+    {
+      "name": "independent-audit.zip",
+      "asset_id": 617495305,
+      "sha256": "4edf42a7ad5f1f17363fc728c6e08cd7614d4cc1dd74b6515bf5c25b7d07215b",
+      "size": 723155,
+      "url": "https://github.com/lollipoll/certified-square-packing-68/releases/download/v1.0.0/independent-audit.zip"
+    }
+  ],
+  "daniel_certificate_identical_to_prior_replayed_source": true,
+  "prior_checkout_clean_and_untouched": true
+}

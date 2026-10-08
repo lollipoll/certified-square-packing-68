@@ -1,0 +1,2220 @@
+{
+  "variable_order": "x[68],y[68],L,c0,s0,...,c7,s7",
+  "groups": [
+    [
+      8,
+      14,
+      17,
+      21,
+      23,
+      28,
+      30,
+      33,
+      36,
+      38,
+      42,
+      45,
+      47,
+      52,
+      55
+    ],
+    [
+      20,
+      25,
+      29,
+      31,
+      35,
+      37,
+      39,
+      44,
+      46,
+      50,
+      53,
+      59
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      16
+    ],
+    [
+      22
+    ],
+    [
+      34
+    ],
+    [
+      43
+    ]
+  ],
+  "fixed_half_angle_parameters": {
+    "0": "0",
+    "1": "0",
+    "2": "0",
+    "3": "0",
+    "4": "0",
+    "5": "0",
+    "6": "0",
+    "7": "0",
+    "9": "0",
+    "10": "0",
+    "11": "0",
+    "15": "0",
+    "18": "0",
+    "19": "239669097548064427408793022255891066118924839831376946058349158143606267/500000000000000000000000000000000000000000000000000000000000000000000000000",
+    "24": "0",
+    "26": "0",
+    "27": "0",
+    "32": "0",
+    "40": "0",
+    "41": "0",
+    "48": "0",
+    "49": "0",
+    "51": "0",
+    "54": "239101399071392716236097267744586554214869358230411065192618569191072322047/1000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "56": "0",
+    "57": "0",
+    "58": "0",
+    "60": "0",
+    "61": "0",
+    "62": "242836091021477677860277378230802937197792175827077785596648024362263273/500000000000000000000000000000000000000000000000000000000000000000000000000",
+    "63": "0",
+    "64": "0",
+    "65": "0",
+    "66": "0",
+    "67": "0"
+  },
+  "gauges": [
+    {
+      "proposed_row": 415,
+      "selected_row": 73,
+      "kind": "gauge",
+      "variable": 66,
+      "value": "3.8983413686093726"
+    },
+    {
+      "proposed_row": 416,
+      "selected_row": 74,
+      "kind": "gauge",
+      "variable": 64,
+      "value": "3.898341368609373"
+    },
+    {
+      "proposed_row": 417,
+      "selected_row": 75,
+      "kind": "gauge",
+      "variable": 86,
+      "value": "2.8966716923305507"
+    },
+    {
+      "proposed_row": 418,
+      "selected_row": 76,
+      "kind": "gauge",
+      "variable": 128,
+      "value": "-3.8960013612940867"
+    },
+    {
+      "proposed_row": 419,
+      "selected_row": 77,
+      "kind": "gauge",
+      "variable": 27,
+      "value": "-0.892382544142994"
+    },
+    {
+      "proposed_row": 420,
+      "selected_row": 78,
+      "kind": "gauge",
+      "variable": 62,
+      "value": "3.8983398694925104"
+    },
+    {
+      "proposed_row": 421,
+      "selected_row": 79,
+      "kind": "gauge",
+      "variable": 0,
+      "value": "-3.892382950273664"
+    },
+    {
+      "proposed_row": 422,
+      "selected_row": 80,
+      "kind": "gauge",
+      "variable": 95,
+      "value": "3.8993974526269173"
+    },
+    {
+      "proposed_row": 423,
+      "selected_row": 81,
+      "kind": "gauge",
+      "variable": 122,
+      "value": "-0.08698887128452969"
+    },
+    {
+      "proposed_row": 424,
+      "selected_row": 82,
+      "kind": "gauge",
+      "variable": 129,
+      "value": "-2.8947285877921884"
+    },
+    {
+      "proposed_row": 425,
+      "selected_row": 83,
+      "kind": "gauge",
+      "variable": 130,
+      "value": "-1.8923826795329841"
+    },
+    {
+      "proposed_row": 426,
+      "selected_row": 84,
+      "kind": "gauge",
+      "variable": 2,
+      "value": "-3.892382950273664"
+    },
+    {
+      "proposed_row": 427,
+      "selected_row": 85,
+      "kind": "gauge",
+      "variable": 7,
+      "value": "-3.8957884035409056"
+    },
+    {
+      "proposed_row": 428,
+      "selected_row": 86,
+      "kind": "gauge",
+      "variable": 54,
+      "value": "2.611210868293895"
+    },
+    {
+      "proposed_row": 429,
+      "selected_row": 95,
+      "kind": "gauge",
+      "variable": 127,
+      "value": "-0.9989093275698193"
+    },
+    {
+      "proposed_row": 430,
+      "selected_row": 97,
+      "kind": "gauge",
+      "variable": 88,
+      "value": "-2.6821794637086023"
+    },
+    {
+      "proposed_row": 431,
+      "selected_row": 98,
+      "kind": "gauge",
+      "variable": 89,
+      "value": "1.724249723666292"
+    },
+    {
+      "proposed_row": 432,
+      "selected_row": 99,
+      "kind": "gauge",
+      "variable": 120,
+      "value": "0.8035654922834886"
+    },
+    {
+      "proposed_row": 433,
+      "selected_row": 93,
+      "kind": "gauge",
+      "variable": 96,
+      "value": "-0.06442249493409984"
+    },
+    {
+      "proposed_row": 434,
+      "selected_row": 100,
+      "kind": "gauge",
+      "variable": 91,
+      "value": "0.8305528851498433"
+    },
+    {
+      "proposed_row": 435,
+      "selected_row": 94,
+      "kind": "gauge",
+      "variable": 115,
+      "value": "1.6984315448507443"
+    },
+    {
+      "proposed_row": 436,
+      "selected_row": 115,
+      "kind": "gauge",
+      "variable": 11,
+      "value": "-2.895339873833032"
+    }
+  ],
+  "selected_equations": [
+    {
+      "F_index": 0,
+      "proposed_index": 8,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 12,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 1,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 1,
+      "proposed_index": 9,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 18,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 10,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 2,
+      "proposed_index": 11,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 19,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 11,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 3,
+      "proposed_index": 15,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 24,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 15,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 4,
+      "proposed_index": 21,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 25,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 20,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 5,
+      "proposed_index": 31,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 34,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 26,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 6,
+      "proposed_index": 34,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 35,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 29,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 7,
+      "proposed_index": 39,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 39,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 31,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 8,
+      "proposed_index": 52,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 44,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 37,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 9,
+      "proposed_index": 59,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 9,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 4,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 10,
+      "proposed_index": 61,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 48,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 40,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 11,
+      "proposed_index": 63,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 49,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 41,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 12,
+      "proposed_index": 75,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 53,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 46,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 13,
+      "proposed_index": 86,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 6,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 5,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 14,
+      "proposed_index": 88,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 59,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 50,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 15,
+      "proposed_index": 93,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 60,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 56,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 16,
+      "proposed_index": 95,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 61,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 57,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 17,
+      "proposed_index": 98,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 67,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 58,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 18,
+      "proposed_index": 109,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 1,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 0,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 19,
+      "proposed_index": 111,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 11,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 10,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 20,
+      "proposed_index": 115,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 24,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 15,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 21,
+      "proposed_index": 119,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 3,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 2,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 22,
+      "proposed_index": 123,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 22,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 25,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 23,
+      "proposed_index": 130,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 31,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 35,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 24,
+      "proposed_index": 136,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 36,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 39,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 25,
+      "proposed_index": 137,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 5,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 4,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 26,
+      "proposed_index": 140,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 48,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 40,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 27,
+      "proposed_index": 141,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 49,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 41,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 28,
+      "proposed_index": 148,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 44,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 46,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 29,
+      "proposed_index": 160,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 45,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 50,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 30,
+      "proposed_index": 161,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 58,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 51,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 31,
+      "proposed_index": 166,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 57,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 56,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 32,
+      "proposed_index": 171,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 7,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 6,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 33,
+      "proposed_index": 173,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 64,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 63,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 34,
+      "proposed_index": 175,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 66,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 65,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 35,
+      "proposed_index": 265,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 43,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 51,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 36,
+      "proposed_index": 286,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 55,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 65,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 37,
+      "proposed_index": 37,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 38,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 30,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 38,
+      "proposed_index": 42,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 42,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 33,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 39,
+      "proposed_index": 12,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 21,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 14,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 40,
+      "proposed_index": 17,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 23,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 17,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 41,
+      "proposed_index": 116,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 13,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 16,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 42,
+      "proposed_index": 117,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 14,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 17,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 43,
+      "proposed_index": 127,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 30,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 33,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 44,
+      "proposed_index": 142,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 38,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 42,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 45,
+      "proposed_index": 305,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 26,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 19,
+        "edge": "-v"
+      }
+    },
+    {
+      "F_index": 46,
+      "proposed_index": 198,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 13,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 22,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 47,
+      "proposed_index": 73,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 52,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 45,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 48,
+      "proposed_index": 33,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 36,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 28,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 49,
+      "proposed_index": 289,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 3,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 8,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 50,
+      "proposed_index": 77,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 55,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 47,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 51,
+      "proposed_index": 190,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 12,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 16,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 52,
+      "proposed_index": 365,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 13,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 8,
+        "edge": "-v"
+      }
+    },
+    {
+      "F_index": 53,
+      "proposed_index": 121,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 32,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 24,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 54,
+      "proposed_index": 134,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 35,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 37,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 55,
+      "proposed_index": 138,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 9,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 4,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 56,
+      "proposed_index": 26,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 32,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 24,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 57,
+      "proposed_index": 169,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 67,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 58,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 58,
+      "proposed_index": 329,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 43,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 41,
+        "edge": "-v"
+      }
+    },
+    {
+      "F_index": 59,
+      "proposed_index": 345,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 57,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 53,
+        "edge": "-v"
+      }
+    },
+    {
+      "F_index": 60,
+      "proposed_index": 124,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 25,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 29,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 61,
+      "proposed_index": 319,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 30,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 34,
+        "edge": "-v"
+      }
+    },
+    {
+      "F_index": 62,
+      "proposed_index": 100,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 63,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 59,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 63,
+      "proposed_index": 165,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 51,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 55,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 64,
+      "proposed_index": 301,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 15,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 12,
+        "edge": "-v"
+      }
+    },
+    {
+      "F_index": 65,
+      "proposed_index": 146,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 42,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 45,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 66,
+      "proposed_index": 216,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 22,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 31,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 67,
+      "proposed_index": 84,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 9,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 5,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 68,
+      "proposed_index": 78,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 56,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 48,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 69,
+      "proposed_index": 81,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 58,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 49,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 70,
+      "proposed_index": 112,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 7,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 10,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 71,
+      "proposed_index": 72,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 46,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 44,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 72,
+      "proposed_index": 22,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 29,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 20,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 73,
+      "proposed_index": 415,
+      "description": {
+        "kind": "gauge",
+        "variable": 66,
+        "value": "3.8983413686093726"
+      }
+    },
+    {
+      "F_index": 74,
+      "proposed_index": 416,
+      "description": {
+        "kind": "gauge",
+        "variable": 64,
+        "value": "3.898341368609373"
+      }
+    },
+    {
+      "F_index": 75,
+      "proposed_index": 417,
+      "description": {
+        "kind": "gauge",
+        "variable": 86,
+        "value": "2.8966716923305507"
+      }
+    },
+    {
+      "F_index": 76,
+      "proposed_index": 418,
+      "description": {
+        "kind": "gauge",
+        "variable": 128,
+        "value": "-3.8960013612940867"
+      }
+    },
+    {
+      "F_index": 77,
+      "proposed_index": 419,
+      "description": {
+        "kind": "gauge",
+        "variable": 27,
+        "value": "-0.892382544142994"
+      }
+    },
+    {
+      "F_index": 78,
+      "proposed_index": 420,
+      "description": {
+        "kind": "gauge",
+        "variable": 62,
+        "value": "3.8983398694925104"
+      }
+    },
+    {
+      "F_index": 79,
+      "proposed_index": 421,
+      "description": {
+        "kind": "gauge",
+        "variable": 0,
+        "value": "-3.892382950273664"
+      }
+    },
+    {
+      "F_index": 80,
+      "proposed_index": 422,
+      "description": {
+        "kind": "gauge",
+        "variable": 95,
+        "value": "3.8993974526269173"
+      }
+    },
+    {
+      "F_index": 81,
+      "proposed_index": 423,
+      "description": {
+        "kind": "gauge",
+        "variable": 122,
+        "value": "-0.08698887128452969"
+      }
+    },
+    {
+      "F_index": 82,
+      "proposed_index": 424,
+      "description": {
+        "kind": "gauge",
+        "variable": 129,
+        "value": "-2.8947285877921884"
+      }
+    },
+    {
+      "F_index": 83,
+      "proposed_index": 425,
+      "description": {
+        "kind": "gauge",
+        "variable": 130,
+        "value": "-1.8923826795329841"
+      }
+    },
+    {
+      "F_index": 84,
+      "proposed_index": 426,
+      "description": {
+        "kind": "gauge",
+        "variable": 2,
+        "value": "-3.892382950273664"
+      }
+    },
+    {
+      "F_index": 85,
+      "proposed_index": 427,
+      "description": {
+        "kind": "gauge",
+        "variable": 7,
+        "value": "-3.8957884035409056"
+      }
+    },
+    {
+      "F_index": 86,
+      "proposed_index": 428,
+      "description": {
+        "kind": "gauge",
+        "variable": 54,
+        "value": "2.611210868293895"
+      }
+    },
+    {
+      "F_index": 87,
+      "proposed_index": 14,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 17,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 14,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 88,
+      "proposed_index": 144,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 39,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 44,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 89,
+      "proposed_index": 66,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 52,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 42,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 90,
+      "proposed_index": 20,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 26,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 18,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 91,
+      "proposed_index": 110,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 2,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 1,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 92,
+      "proposed_index": 174,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 65,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 64,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 93,
+      "proposed_index": 433,
+      "description": {
+        "kind": "gauge",
+        "variable": 96,
+        "value": "-0.06442249493409984"
+      }
+    },
+    {
+      "F_index": 94,
+      "proposed_index": 435,
+      "description": {
+        "kind": "gauge",
+        "variable": 115,
+        "value": "1.6984315448507443"
+      }
+    },
+    {
+      "F_index": 95,
+      "proposed_index": 429,
+      "description": {
+        "kind": "gauge",
+        "variable": 127,
+        "value": "-0.9989093275698193"
+      }
+    },
+    {
+      "F_index": 96,
+      "proposed_index": 151,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 57,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 48,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 97,
+      "proposed_index": 430,
+      "description": {
+        "kind": "gauge",
+        "variable": 88,
+        "value": "-2.6821794637086023"
+      }
+    },
+    {
+      "F_index": 98,
+      "proposed_index": 431,
+      "description": {
+        "kind": "gauge",
+        "variable": 89,
+        "value": "1.724249723666292"
+      }
+    },
+    {
+      "F_index": 99,
+      "proposed_index": 432,
+      "description": {
+        "kind": "gauge",
+        "variable": 120,
+        "value": "0.8035654922834886"
+      }
+    },
+    {
+      "F_index": 100,
+      "proposed_index": 434,
+      "description": {
+        "kind": "gauge",
+        "variable": 91,
+        "value": "0.8305528851498433"
+      }
+    },
+    {
+      "F_index": 101,
+      "proposed_index": 379,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 3,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "wall": "left"
+      }
+    },
+    {
+      "F_index": 102,
+      "proposed_index": 114,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 9,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 14,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 103,
+      "proposed_index": 55,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 47,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 38,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 104,
+      "proposed_index": 96,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 60,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 57,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 105,
+      "proposed_index": 245,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 34,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 43,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 106,
+      "proposed_index": 230,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 31,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 36,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 107,
+      "proposed_index": 376,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 19,
+        "vertex": [
+          1,
+          1
+        ],
+        "wall": "top"
+      }
+    },
+    {
+      "F_index": 108,
+      "proposed_index": 129,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 41,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 34,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 109,
+      "proposed_index": 205,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 16,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 25,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 110,
+      "proposed_index": 233,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 32,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 37,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 111,
+      "proposed_index": 179,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 4,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 8,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 112,
+      "proposed_index": 322,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 40,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 37,
+        "edge": "-v"
+      }
+    },
+    {
+      "F_index": 113,
+      "proposed_index": 405,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 63,
+        "vertex": [
+          1,
+          -1
+        ],
+        "wall": "right"
+      }
+    },
+    {
+      "F_index": 114,
+      "proposed_index": 120,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 29,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 24,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 115,
+      "proposed_index": 436,
+      "description": {
+        "kind": "gauge",
+        "variable": 11,
+        "value": "-2.895339873833032"
+      }
+    },
+    {
+      "F_index": 116,
+      "proposed_index": 176,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 67,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 66,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 117,
+      "proposed_index": 132,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 33,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 36,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 118,
+      "proposed_index": 25,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 33,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 23,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 119,
+      "proposed_index": 157,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 6,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 5,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 120,
+      "proposed_index": 195,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 9,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 18,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 121,
+      "proposed_index": 163,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 50,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 53,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 122,
+      "proposed_index": 368,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 0,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "wall": "bottom"
+      }
+    },
+    {
+      "F_index": 123,
+      "proposed_index": 410,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 67,
+        "vertex": [
+          1,
+          -1
+        ],
+        "wall": "right"
+      }
+    },
+    {
+      "F_index": 124,
+      "proposed_index": 199,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 16,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 22,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 125,
+      "proposed_index": 24,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 30,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 23,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 126,
+      "proposed_index": 150,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 46,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 48,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 127,
+      "proposed_index": 401,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 60,
+        "vertex": [
+          1,
+          -1
+        ],
+        "wall": "right"
+      }
+    },
+    {
+      "F_index": 128,
+      "proposed_index": 237,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 44,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 39,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 129,
+      "proposed_index": 154,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 58,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 49,
+        "edge": "+v"
+      }
+    },
+    {
+      "F_index": 130,
+      "proposed_index": 377,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 24,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "wall": "bottom"
+      }
+    },
+    {
+      "F_index": 131,
+      "proposed_index": 413,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 7,
+        "vertex": [
+          -1,
+          1
+        ],
+        "wall": "top"
+      }
+    },
+    {
+      "F_index": 132,
+      "proposed_index": 383,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 4,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "wall": "left"
+      }
+    },
+    {
+      "F_index": 133,
+      "proposed_index": 18,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 28,
+        "vertex": [
+          -1,
+          1
+        ],
+        "edge_square": 17,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 134,
+      "proposed_index": 370,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 1,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "wall": "left"
+      }
+    },
+    {
+      "F_index": 135,
+      "proposed_index": 407,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 65,
+        "vertex": [
+          1,
+          -1
+        ],
+        "wall": "right"
+      }
+    },
+    {
+      "F_index": 136,
+      "proposed_index": 409,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 67,
+        "vertex": [
+          -1,
+          1
+        ],
+        "wall": "top"
+      }
+    },
+    {
+      "F_index": 137,
+      "proposed_index": 0,
+      "description": {
+        "kind": "circle",
+        "group": 0
+      }
+    },
+    {
+      "F_index": 138,
+      "proposed_index": 1,
+      "description": {
+        "kind": "circle",
+        "group": 1
+      }
+    },
+    {
+      "F_index": 139,
+      "proposed_index": 2,
+      "description": {
+        "kind": "circle",
+        "group": 2
+      }
+    },
+    {
+      "F_index": 140,
+      "proposed_index": 3,
+      "description": {
+        "kind": "circle",
+        "group": 3
+      }
+    },
+    {
+      "F_index": 141,
+      "proposed_index": 4,
+      "description": {
+        "kind": "circle",
+        "group": 4
+      }
+    },
+    {
+      "F_index": 142,
+      "proposed_index": 5,
+      "description": {
+        "kind": "circle",
+        "group": 5
+      }
+    },
+    {
+      "F_index": 143,
+      "proposed_index": 6,
+      "description": {
+        "kind": "circle",
+        "group": 6
+      }
+    },
+    {
+      "F_index": 144,
+      "proposed_index": 7,
+      "description": {
+        "kind": "circle",
+        "group": 7
+      }
+    },
+    {
+      "F_index": 145,
+      "proposed_index": 92,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 50,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 53,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 146,
+      "proposed_index": 105,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 14,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "edge_square": 8,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 147,
+      "proposed_index": 48,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 37,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 35,
+        "edge": "+u"
+      }
+    },
+    {
+      "F_index": 148,
+      "proposed_index": 193,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 13,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 17,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 149,
+      "proposed_index": 196,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 12,
+        "vertex": [
+          1,
+          -1
+        ],
+        "edge_square": 20,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 150,
+      "proposed_index": 395,
+      "description": {
+        "kind": "vertex_wall",
+        "square": 56,
+        "vertex": [
+          -1,
+          -1
+        ],
+        "wall": "bottom"
+      }
+    },
+    {
+      "F_index": 151,
+      "proposed_index": 209,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 22,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 28,
+        "edge": "-u"
+      }
+    },
+    {
+      "F_index": 152,
+      "proposed_index": 332,
+      "description": {
+        "kind": "vertex_edge",
+        "vertex_square": 38,
+        "vertex": [
+          1,
+          1
+        ],
+        "edge_square": 43,
+        "edge": "-v"
+      }
+    }
+  ]
+}
